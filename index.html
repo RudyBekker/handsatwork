@@ -1,0 +1,1571 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'https://www.handsatwork.co.za/',
+        AccountUUID: '6850ac2082cd460ea9f85369fb846cf9',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: 'ec6ff8e2',
+        SiteId: '1690845',
+        SiteType: atob('RFVEQU9ORQ=='),
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        InitialPageAlias: 'home',
+        InitialEncodedPageAlias: 'aG9tZQ==',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: true,
+        AllowAjax: true,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '1720',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID : null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        LayoutParams : {
+            _navigationAnimationStyle: 'slide',
+            _manifestId : 10600,
+            _device : 'desktop'
+        },
+        StorePageAlias: 'null',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        NotificationSubDomain: 'handsatwork',
+        HasCustomDomain: true,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'LEFT',
+        currentLanguage: 'en',
+        NavItems: 'W3sidGl0bGUiOiJIb21lIiwiYWxpYXMiOiJob21lIiwicGF0aCI6Ii8iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJBYm91dCBVcyIsImFsaWFzIjoiYWJvdXQtdXMiLCJwYXRoIjoiL2Fib3V0LXVzIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiU2VydmljZXMiLCJhbGlhcyI6IlNlcnZpY2VzIiwicGF0aCI6Ii9TZXJ2aWNlcyIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6IkNvbnRhY3QiLCJhbGlhcyI6IkNvbnRhY3QiLCJwYXRoIjoiL0NvbnRhY3QiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJTeXN0ZW1BZG1pbiIsImFsaWFzIjoic3lzdGVtYWRtaW4iLCJwYXRoIjoiL3N5c3RlbWFkbWluIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfV0=',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.handsatwork.co.za/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: 7,
+        disableTracking: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function(global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function() {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=2';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function(registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    },
+                    function(err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function(err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function() {
+            var refreshing;
+            return function() {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function(resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="index.html">
+
+<meta id="view" name="viewport"
+      content=", initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"/>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+16.57.19.png"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp-cdn.multiscreensite.com/ec6ff8e2/site_favicon_16_1581174307402.ico"/>
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://lirp-cdn.multiscreensite.com/" crossorigin />
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+
+    function loadCSS(link) {
+        try {
+            var urlParams = new URLSearchParams(window.location.search);
+            var noCSS = !!urlParams.get('nocss');
+            var cssTimeout = urlParams.get('cssTimeout') || 0;
+
+            if (noCSS) {
+                return;
+            }
+            requestIdleCallback(function () {
+                window.setTimeout(function () {
+                    link.onload = null;
+                    link.rel = 'stylesheet';
+                    link.type = 'text/css'
+                }, parseInt(cssTimeout, 10));
+            });
+        } catch (e) {/* Never fail - this is just a tool for measurements */}
+    }
+
+</script>
+<script>
+(function(n){"use strict";if(!n.l){n.l=function(){}}var o=loadCSS.t={};o.o=function(){var l;try{l=n.document.createElement("link").relList.supports("preload")}catch(e){l=false}return function(){return l}}();o.i=function(e){var l=e.media||"all";function enableStylesheet(){if(e.addEventListener){e.removeEventListener("load",enableStylesheet)}else if(e.attachEvent){e.detachEvent("onload",enableStylesheet)}e.setAttribute("onload",null);e.media=l}if(e.addEventListener){e.addEventListener("load",enableStylesheet)}else if(e.attachEvent){e.attachEvent("onload",enableStylesheet)}setTimeout(function(){e.rel="stylesheet";e.media="only x"});setTimeout(enableStylesheet,3e3)};o.s=function(){if(o.o()){return}var e=n.document.getElementsByTagName("link");for(var l=0;l<e.length;l++){var t=e[l];if(t.rel==="preload"&&t.getAttribute("as")==="style"&&!t.getAttribute("data-loadcss")){t.setAttribute("data-loadcss",true);o.i(t)}}};if(!o.o()){o.s();var e=n.setInterval(o.s,500);if(n.addEventListener){n.addEventListener("load",function(){o.s();n.clearInterval(e)})}else if(n.attachEvent){n.attachEvent("onload",function(){o.s();n.clearInterval(e)})}}if(typeof exports!=="undefined"){exports.l=loadCSS}else{n.l=loadCSS}})(typeof global!=="undefined"?global:this);
+</script>
+
+
+
+<style id="criticalCss">@charset "UTF-8";.pswp,html{-webkit-text-size-adjust:100%}@font-face{font-family:Merriweather;font-style:italic;font-weight:400;font-display:swap;src:local('Merriweather Italic'),local('Merriweather-Italic'),url(https://fonts.gstatic.com/s/merriweather/v22/u-4m0qyriQwlOrhSvowK_l5-eRZOf-I.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face{font-family:Merriweather;font-style:italic;font-weight:700;font-display:swap;src:local('Merriweather Bold Italic'),local('Merriweather-BoldItalic'),url(https://fonts.gstatic.com/s/merriweather/v22/u-4l0qyriQwlOrhSvowK_l5-eR71Wvf4jvw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face{font-family:Poppins;font-style:italic;font-weight:300;font-display:swap;src:local('Poppins Light Italic'),local('Poppins-LightItalic'),url(https://fonts.gstatic.com/s/poppins/v13/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face{font-family:Poppins;font-style:italic;font-weight:400;font-display:swap;src:local('Poppins Italic'),local('Poppins-Italic'),url(https://fonts.gstatic.com/s/poppins/v13/pxiGyp8kv8JHgFVrJJLucHtA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face{font-family:Poppins;font-style:normal;font-weight:300;font-display:swap;src:local('Poppins Light'),local('Poppins-Light'),url(https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face{font-family:Poppins;font-style:normal;font-weight:400;font-display:swap;src:local('Poppins Regular'),local('Poppins-Regular'),url(https://fonts.gstatic.com/s/poppins/v13/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face{font-family:Poppins;font-style:normal;font-weight:600;font-display:swap;src:local('Poppins SemiBold'),local('Poppins-SemiBold'),url(https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}@font-face{font-family:Poppins;font-style:normal;font-weight:700;font-display:swap;src:local('Poppins Bold'),local('Poppins-Bold'),url(https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap}#dm div.dmContent [class*=' icon-'],[class*=' icon-']{font-family:FontAwesome!important;font-weight:400;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased}[class*=' icon-']:before{text-decoration:none;display:inline-block;speak:none}a [class*=' icon-']{display:inline}[class*=' icon-']{display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;margin-top:0}.icon-star:before{content:'\f005'}.icon-angle-down:before{content:'\f107'}[class*=' dm-common-icons-']{speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:dm-common-icons!important}.dm-common-icons-close:before{content:'\e901'}.dmInner{min-height:100vh!important;position:relative}.dmPopup,.dmPopupMask{position:fixed;left:0}.display_None{display:none}.dmDisplay_None{display:none!important}.clearfix:after{clear:both;visibility:hidden;line-height:0;height:0}.clearfix:after,.clearfix:before{content:' ';display:table}.clearfix{display:inline-block}.dmDesktopBody .shadowEffectToChildren li{box-shadow:none!important}#dm .dmWidget .icon{font-size:26px}body:not(.noFontIcons) #dm .dmOuter .dmInner .dmWidget .icon.hasFontIcon{height:26px;margin-top:-13px;line-height:normal;text-align:center;background-image:none}#dm .dmBody div.u_1414742659,#dm .dmBody div.u_1932082113,.supportsFontIcons .hasFontIcon{background-image:none!important}#dm .dmNav.dmNavCustom .dmHideFromNav,#dm .dmn .dmHideFromNav{display:none!important}.dmPopupMask{margin:0;display:none;width:10px;z-index:1000000999;top:0}#dmRoot .dmPopup,.dmPopup,.dmPopupClose:before,[data-display-type=block]{display:block}.dmPopup{padding:10px;text-align:left;margin:0 10px;top:10px;width:93%;z-index:1000009999!important;box-sizing:border-box;background:#f5f5f5;overflow-y:auto;height:100%}.dmPopup .dmPopupTitle{text-align:left;font:700 19px Helvetica,Arial;margin:20px 20px 35px;color:#999}#dmPopup{opacity:0}.dmPopupClose,.dmPopupClose:before{position:absolute;visibility:visible}.dmPopupClose{border-radius:25px;width:27px;height:27px;z-index:1;background-color:rgba(255,255,255,.4);top:12px;right:12px}.dmPopupClose:before{font-size:20px;color:#000;top:3px;right:3px}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar{width:5px;height:5px}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar-track{background:rgba(0,0,0,.1)}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar-thumb{background:#c8c8c8;box-shadow:inset 0 1px 2px #454545;border-radius:45px}.dmRespRow.fullBleedMode>.dmRespColsWrapper{width:100%!important;max-width:100%!important}.dmRespRow.fullBleedMode{padding-left:0!important;padding-right:0!important}#dm .dmRespRow .dmRespColsWrapper{display:-webkit-flex;display:flex}.pswp{z-index:9999999999!important}#dm .hasBackgroundOverlay:not(.dmPopupPage):not(.layout-drawer){position:relative!important}#dm .hasBackgroundOverlay:not(.hasExtraLayerOverlay):before{display:block!important;position:absolute!important;top:0!important;left:0!important;width:100%!important;height:100%!important;content:' '!important}#dm .dmInner .dmWidget.align-center,.align-center{margin-left:auto;margin-right:auto}body.fix-mobile-scrolling{overflow:initial}p.rteBlock{margin:0}#hcontainer[has-shadow=true]{position:relative;z-index:1}#dmRoot{text-decoration-skip-ink:none}.dmform-title{padding-right:15px;padding-left:15px}body{-webkit-overflow-scrolling:touch}nav{display:block}html{font-family:Source Sans Pro;-ms-text-size-adjust:100%}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0}img{border:0;max-width:100%;-ms-interpolation-mode:bicubic;display:inline-block}svg:not(:root){overflow:hidden}button,input{font-family:inherit;font-size:100%;margin:0;line-height:normal}button{text-transform:none;-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}*,:after,:before{box-sizing:border-box}.dmRespRow.dmRespRowNoPadding{padding:0}.dmRespRow{padding-top:15px;padding-bottom:15px}.dmRespRow:after,.dmRespRow:before{content:' ';display:table}.dmRespRow:after{clear:both}.dmRespRow,.dmRespRow .dmRespColsWrapper{max-width:960px;position:relative;margin:0 auto;width:100%}.dmRespRow .dmRespCol{position:relative;width:100%;display:inline-block;vertical-align:top;float:left}.dmRespRow .dmRespCol>*{max-width:100%}.dmDesktopBody .dmRespRow .large-2{position:relative;width:16.66667%}.dmDesktopBody .dmRespRow .large-5{position:relative;width:41.66667%}.dmDesktopBody .dmRespRow .large-8{position:relative;width:66.66667%}.dmDesktopBody .dmRespRow .large-12{position:relative;width:100%}#dm .dmRespRow .dmRespCol>.dmWidget{overflow:initial}.dmLargeBody #dm .dmRespRow .dmRespCol>.dmWidget{width:280px;max-width:100%}#dm .dmInner .dmWidget:not(.displayNone){display:inline-block}#dm .dmInner .dmWidget:not(.displayNone)[data-display-type=block]{display:block}#dm .dmInner .dmWidget{text-decoration:none;margin:10px 0;clear:both;position:relative;text-align:center;line-height:22px;box-shadow:none;background-image:none;padding:0 0 0 40px;height:auto;border:0;white-space:nowrap}#dm .dmInner .dmWidget:after{content:'';display:inline-block;height:100%;vertical-align:middle;width:0;margin-right:-.25em}#dm .dmInner .dmWidget .iconBg{position:absolute;left:0;width:50px;top:50%;margin-top:-13px}#dm .dmWidget .text{display:inline-block;vertical-align:middle;font-size:1.125em;line-height:normal;white-space:normal;padding:10px 7px;max-width:98%}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle*=_ROUND]{border-radius:6px}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle^=FLAT]{background-clip:border-box}#dm [data-buttonstyle=BORDER_SHORT] .dmWidget:not([data-buttonstyle]){overflow:initial;background-clip:border-box;border:1px solid;padding:0}#dm [data-buttonstyle=BORDER_SHORT] .dmWidget:not([data-buttonstyle]) .iconBg{display:none}#dmRoot #dm [data-buttonstyle=BORDER_SHORT] .dmInner .dmWidget:not([data-buttonstyle]) .text{padding:16px 0}.dmLargeBody #dm [data-buttonstyle=BORDER_SHORT] .dmRespRow .dmRespCol>.dmWidget{width:222px}.pswp,.pswp__bg,.pswp__scroll-wrap{width:100%;height:100%;position:absolute;top:0;left:0}#dm .dmInner .dmBody .hide-for-large,.hide-for-large{display:none!important}#dm div.dmInner .dmform[data-layout=layout-1] .dmforminput>:not(label):not(div):not(small){background:0;border:2px solid #000;display:inline-block}#dm div.dmInner .dmform .dmforminput label[hide=true]{display:none}.dmform .dmforminput label{display:block;overflow:hidden;text-overflow:ellipsis}.imageWidget a{font-style:italic;text-align:center}.pswp{display:none;overflow:hidden;-ms-touch-action:none;touch-action:none;-webkit-backface-visibility:hidden;outline:0}.pswp *{-webkit-box-sizing:border-box;box-sizing:border-box}.pswp__scroll-wrap{overflow:hidden}.pswp__bg{background:#000;opacity:0;-webkit-backface-visibility:hidden;will-change:opacity}.pswp__container{-webkit-touch-callout:none;-ms-touch-action:none;touch-action:none;position:absolute;left:0;right:0;top:0;bottom:0;-webkit-backface-visibility:hidden;will-change:transform}.pswp__item{position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden}.pswp__button{position:relative;overflow:visible;-webkit-appearance:none;display:block;border:0;padding:0;margin:0;float:right;opacity:.75;-webkit-box-shadow:none;box-shadow:none}.pswp__button::-moz-focus-inner{padding:0;border:0}.pswp__button,.pswp__button--arrow--left:before,.pswp__button--arrow--right:before{background:url(_dm/s/rt/scripts/vendor/photoswipe4/icons/default-skin.png) no-repeat;background-size:264px 88px;width:44px;height:44px}.pswp__button--close{background-position:0 -44px}.pswp__button--share{background-position:-44px -44px}.pswp__button--fs{display:none}.pswp__button--zoom{display:none;background-position:-88px 0}.pswp__button--arrow--left,.pswp__button--arrow--right{background:0 0;top:50%;margin-top:-50px;width:70px;height:100px;position:absolute}.pswp__button--arrow--left{left:0}.pswp__button--arrow--right{right:0}.pswp__button--arrow--left:before,.pswp__button--arrow--right:before{content:'';top:35px;background-color:rgba(0,0,0,.3);height:30px;width:32px;position:absolute}.pswp__button--arrow--left:before{left:6px;background-position:-138px -44px}.pswp__button--arrow--right:before{right:6px;background-position:-94px -44px}.pswp__share-modal{display:block;background:rgba(0,0,0,.5);width:100%;height:100%;top:0;left:0;padding:10px;position:absolute;z-index:1600;opacity:0;-webkit-backface-visibility:hidden;will-change:opacity}.pswp__share-modal--hidden{display:none}.pswp__share-tooltip{z-index:1620;position:absolute;background:#FFF;top:56px;border-radius:2px;display:block;width:auto;right:44px;-webkit-box-shadow:0 2px 5px rgba(0,0,0,.25);box-shadow:0 2px 5px rgba(0,0,0,.25);-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px);-webkit-backface-visibility:hidden;will-change:transform}.pswp__counter,.pswp__preloader{height:44px;position:absolute;top:0}.pswp__counter{left:0;font-size:13px;line-height:44px;color:#FFF;opacity:.75;padding:0 10px}.pswp__caption{position:absolute;left:0;bottom:0;width:100%;min-height:44px}.pswp__caption__center{max-width:95%;margin:0 auto;font-size:16px;padding:10px;line-height:20px;color:#CCC;width:960px;font-weight:700;text-align:center}.pswp__preloader{width:44px;left:50%;margin-left:-22px;opacity:0;will-change:opacity}.pswp__preloader__icn{width:20px;height:20px;margin:12px}@media screen and (max-width:1024px){.pswp__preloader{position:relative;left:auto;top:auto;margin:0;float:right}}.pswp__ui{-webkit-font-smoothing:auto;visibility:visible;opacity:1;z-index:1550}.pswp__top-bar{position:absolute;left:0;top:0;height:44px;width:100%}.pswp__caption,.pswp__top-bar{-webkit-backface-visibility:hidden;will-change:opacity;background-color:rgba(0,0,0,.5)}.pswp__ui--hidden .pswp__button--arrow--left,.pswp__ui--hidden .pswp__button--arrow--right,.pswp__ui--hidden .pswp__caption,.pswp__ui--hidden .pswp__top-bar{opacity:.001}.dmPhotoGallery .dmPhotoGalleryHolder .photoGalleryThumbs .image-container{height:100%}.dmPhotoGallery .dmPhotoGalleryHolder .photoGalleryThumbs{width:58px;height:58px;margin:2px;display:inline-block;vertical-align:middle;text-align:center;overflow:hidden}.dmPhotoGalleryResp.dmPhotoGallery .dmPhotoGalleryHolder .photoGalleryThumbs img{box-shadow:0 0 3px #888}.dmPhotoGalleryResp.dmPhotoGallery .dmPhotoGalleryHolder .photoGalleryThumbs{margin:0;padding:10px}.dmPhotoGalleryHolder{text-align:center}.dmPhotoGallery .dmPhotoGalleryHolder .photoGalleryThumbs img{display:inline!important;margin:0!important;vertical-align:middle;text-align:center;position:relative}.dmPhotoGallery .image-container{position:relative}.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner h3,.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner p{margin:0;line-height:normal;text-align:center}.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner h3{font-size:21px}.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner p{font-size:14px}.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner .caption-text,.dmPhotoGallery.newPhotoGallery .photoGalleryThumbs .caption-container .caption-inner .caption-title{max-width:100%}#dm .dmPhotoGallery.newPhotoGallery li{list-style:none}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;position:relative;overflow:hidden;z-index:1;background-color:rgba(255,255,255,.9);color:#333;padding:15px;height:100%;box-sizing:border-box;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner h3,#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner p{text-align:center}#dm .dmPhotoGallery.newPhotoGallery .photoGalleryViewAll{box-shadow:0 0!important;font-size:inherit!important;margin:0!important}#dm .dmPhotoGallery.newPhotoGallery .dmPhotoGalleryHolder{width:100%;padding:0;display:none}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs{position:relative}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .image-container{overflow:hidden}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .image-container a{background-repeat:no-repeat;background-position:center}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .rteBlock{font-size:14px}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .caption-button{margin:10px auto;max-width:100%}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .caption-button .text{padding:10px 20px!important}#dm .dmRespRow.dmRespRowNoPadding,.dmContent,.dmInner ul:not(.defaultList),DIV.dmBody{padding:0}#dm .dmPhotoGallery.newPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner .caption-button.displayNone{display:none}*{border:0 solid #333;scrollbar-arrow-color:#fff;scrollbar-track-color:#F2F2F2;scrollbar-face-color:silver;scrollbar-highlight-color:silver;scrollbar-3dlight-color:silver;scrollbar-shadow-color:silver;scrollbar-darkshadow-color:silver;scrollbar-width:12px}body{width:100%;overflow:hidden;-webkit-text-size-adjust:100%!important;-ms-text-size-adjust:100%!important}A IMG{border:none}h1,h2,h3,h4,h5,ul{margin-left:0;margin-right:0}.displayNone{display:none}.dmInner *{-webkit-font-smoothing:antialiased}.clearfix,a,img,li,ul{vertical-align:top}#iscrollBody,#site_content{position:relative}.dmOuter{word-wrap:break-word}.dmInner{min-width:768px!important;font-size:16px;background:#fff;color:#666}.dmDesktopBody .dmInner{min-width:960px}.dmInner a{color:#463939}.dmHeader{background:#68ccd1;color:#666;text-align:center;position:relative;width:100%;max-width:100%}DIV.dmBody{clear:both}.dmContent{margin:0}#site_content ul:not(.defaultList){-webkit-padding-start:0;-moz-padding-start:0;list-style-position:inside}#innerBar{position:relative;height:36px;width:100%;font-size:20px;margin:0;z-index:80}.dmRespRowsWrapper{max-width:960px;margin:0 auto}.dmRespCol>[dmle_extension]:not(:first-child){margin-top:10px}.dmNav{margin-top:20px}.dmNav li{position:relative}.dmNav li a{height:100%;display:block;padding:17px 10px;text-decoration:none}.dmLargeBody .imageWidget:not(.displayNone){display:inline-block;max-width:100%}.imageWidget:not(.displayNone) img{width:100%}h3{font-weight:400;font-size:23px}#dm .dmRespColsWrapper{display:block}.dmNewParagraph{text-align:left;margin:8px 0;padding:2px 0}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol,.dmLargeBody .fHeader .dmRespRow .dmRespCol{padding-left:.75%;padding-right:.75%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:first-child,.dmLargeBody .fHeader .dmRespRow .dmRespCol:first-child{padding-left:0;padding-right:1.5%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:last-child,.dmLargeBody .fHeader .dmRespRow .dmRespCol:last-child{padding-right:0;padding-left:1.5%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:only-child{padding-left:0;padding-right:0}#innerBar.lineInnerBar{display:table;width:100%;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;font-size:20px;margin-top:30px;margin-bottom:30px;background-color:transparent;color:#666}#innerBar .titleLine{display:table-cell;vertical-align:middle;width:50%}.dmPageTitleRow:not(#innerBar){display:none}.titleLine hr{min-height:1px;background-color:rgba(102,102,102,.2)}.standardHeaderLayout .dmHeader{float:none}.dmInner a{outline:0;vertical-align:inherit}.dmLinksMenu>ul{display:block;margin:0;font-size:inherit}.dmStandardDesktop{display:block;margin:0 auto}#dm .dmInner .dmWidget{color:#f7f7f7;background-color:#f95759}#dm h3.dmwidget-title[hide=true]{display:none}#dm .dmwidget-title{margin:10px 0;font-size:23px;text-shadow:none;text-align:left;text-transform:capitalize;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;word-wrap:normal}.dmPhotoGalleryHolder{font-size:medium!important;margin:0;list-style:none}#dm .dmPhotoGallery .dmPhotoGalleryHolder,#dm .dmPhotoGallery .dmPhotoGalleryHolder>li{width:100%;padding:0}#dm .dmPhotoGallery .dmPhotoGalleryHolder .photoGalleryThumbs{background:url(https://dd-cdn.multiscreensite.com/runtime-img/galleryLoader.gif) 50% 50% no-repeat #eee;float:left;clear:none;padding:0;margin:0;width:100%}#dm .dmPhotoGallery .dmPhotoGalleryHolder .photoGalleryThumbs img{display:none!important}.dmDesktopBody .dmPhotoGallery .photoGalleryViewAll{background:0 0;border:none;padding:3px 0;font-size:16px;width:auto;height:auto;line-height:normal;box-shadow:0 -2px 0 0;display:block;margin:40px 0;text-align:left}body{background-color:#eee}.dmPhotoGallery:not(.dmFacebookGallery) .dmPhotoGalleryHolder:not(.ready) li.photoGalleryThumbs{display:inline!important;visibility:hidden}#dm [data-buttonstyle] .dmWidget span.iconBg,#dm [data-buttonstyle] .dmWidget span.text{color:#f7f7f7}.dmPhotoGallery li.photoGalleryThumbs .caption-container .caption-inner p{white-space:pre-line}[dmle_extension=custom_extension] .dmWidget{width:150px;padding:0 7px}.main-navigation.unifiednav{display:flex;justify-content:flex-start;align-items:stretch;overflow:visible}.main-navigation.unifiednav ul{list-style:none;padding:0;margin:0;font-size:1rem}.main-navigation.unifiednav .unifiednav__container{display:flex;justify-content:flex-start;list-style:none}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap{display:flex;justify-content:flex-start;position:relative;font-weight:400}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::before{content:'';align-self:center;font-weight:700}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item{display:flex;justify-content:flex-start;align-items:center;flex-direction:row;color:inherit;text-decoration:none;position:relative;padding:12px 15px;margin:0;font-weight:inherit;letter-spacing:.03em}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding:0 15px}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item .nav-item-text{white-space:nowrap}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{content:'';width:100%;height:0;border:0 solid transparent;border-top-color:currentColor;display:block;opacity:0}#dm [data-buttonstyle] div.dmInner #site_content .dmWidget .iconBg,.main-navigation.unifiednav .unifiednav__container .unifiednav__item:not(.unifiednav__item_has-sub-nav) .icon{display:none}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected .nav-item-text::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected .nav-item-text::before{opacity:1}.main-navigation.unifiednav.effect-bottom2{padding:calc(12px - .2em - 2px) 15px}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{transform:scaleX(0);border-top-width:2px}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after{margin-top:.2em}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{margin-bottom:.2em;border-top-color:transparent}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected .nav-item-text::after,.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected .nav-item-text::before{transform:scaleX(1)}.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{transform-origin:left}.main-navigation.unifiednav:not(.unifiednav_vertical)>.unifiednav__container{justify-content:inherit}#dm .p_hfcontainer nav.main-navigation.unifiednav{min-width:9em!important;text-align:initial!important}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL][data-show-vertical-sub-items=HOVER]>.unifiednav__container:not([data-depth])>.unifiednav__item-wrap .unifiednav__item.dmNavItemSelected>.nav-item-text .icon::before{transform:rotate(180deg)}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])>.unifiednav__container{flex-wrap:wrap;justify-content:inherit}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])>.unifiednav__container .nav-item-text::before{text-align:left}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{content:''}#dm .dmBody .dmRespRowsWrapper{max-width:none;background-color:transparent}.dmLargeBody .dmRespRow{width:100%;max-width:none;margin-left:0;margin-right:0;padding-left:40px;padding-right:40px}.dm-bfs.dm-layout-home div.dmInner{background-color:#fff}.dmStandardDesktop .dmHeader{background-color:#68ccd1;max-width:100%}.standardHeaderLayout .dmHeader{display:block;height:auto}#dm div.dmContent h1{color:#666}#dm div.dmRespCol>*{line-height:normal}#dm div.dmContent h1,#dm div.dmContent h1 *,#dm div.dmContent h2,#dm div.dmContent h2 *,#dm div.dmContent h3,#dm div.dmContent h4,#dm div.dmContent h4 *,#dm div.dmContent h5,#dm div.dmContent h5 *,#dm div.dmInner{line-height:initial}#dm [data-buttonstyle] div.dmInner .dmWidget span.text,#dm div.dmContent h3{color:#fff}#dm [data-buttonstyle] div.dmInner .dmWidget span.text,#dm div.dmContent h2,#dm div.dmContent h4,#dm div.dmContent h5{color:#333}#dm [data-buttonstyle] div.dmInner .dmWidget{-webkit-box-shadow:none;box-shadow:none;-moz-box-shadow:none;border-style:solid;border-width:0;border-color:transparent;background-color:#efe719}#dm div.dmInner h1,#dm div.dmInner h2,#dm div.dmInner h3,#dm div.dmInner h4{font-family:Montserrat}#dm div.dmInner h5{font-family:Roboto}#dm div.dmOuter div.dmInner{background-position:center center;background-repeat:repeat;background-size:auto}#dm div.dmContent h4{font-weight:400}#dm [data-buttonstyle] div.dmInner #site_content .dmWidget span.text{font-weight:400;font-size:15px}#dm div.dmContent h2,#dm div.dmContent h3{font-family:Poppins}#dm div.dmContent h5{font-family:Poppins;font-weight:400}#dm .dmform .dmforminput label,#dm div.dmInner,#dm div.dmInner .dmRespCol{font-weight:300;color:rgba(61,72,82,1);font-family:Poppins;font-size:16px}.dmLargeBody .dmBody .dmRespRowsWrapper{background-color:transparent}#dm [data-buttonstyle] div.dmInner #site_content .dmWidget{background-image:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}#dm [data-buttonstyle] div.dmInner #site_content .dmWidget span.text{color:rgba(255,255,255,1)}#dm [data-buttonstyle] div.dmInner #site_content .dmWidget,#dm [data-buttonstyle] div.dmInner .dmHeader .dmWidget{background-color:rgba(74,162,91,1);border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px}#dm div.dmContent h1{font-family:Poppins;color:rgba(61,72,82,1);font-weight:700}#dm div.dmContent h4{font-family:Merriweather;font-style:italic;color:rgba(74,162,91,1)}#dm div.dmContent h2,#dm div.dmContent h3,#dm div.dmContent h5{color:rgba(61,72,82,1)}#dm div.dmContent h3{font-weight:700;font-size:42px}#dm div.dmContent h2{font-weight:700}.newPhotoGallery .photoGalleryViewAll.link{text-decoration:none;color:rgba(64,181,114,1)}#dm DIV.dmInner{background-repeat:no-repeat;background-image:url(https://irt-cdn.multiscreensite.com/ce0bb35f932b47bb809d0e37905542ba/dms3rep/multi/site_background_education-2087x1173.jpg);background-size:cover;background-position:50% 0}@media all and (min-width:1920px),all and (-webkit-min-device-pixel-ratio:1.5),all and (min--moz-device-pixel-ratio:1.5),all and (min-device-pixel-ratio:1.5){#dm DIV.dmInner{background-repeat:no-repeat;background-image:url(https://irt-cdn.multiscreensite.com/ce0bb35f932b47bb809d0e37905542ba/dms3rep/multi/site_background_education-2087x1173.jpg);background-size:cover;background-position:50% 0}}#dm DIV.dmOuter DIV.dmInner{background-image:none;background-color:rgba(255,255,255,1)}#dm [data-buttonstyle] div.dmInner #site_content .dmWidget{text-align:CENTER;background-size:cover;background-repeat:no-repeat;background-attachment:initial;background-position:50% 50%}#dm div.dmContent h1{font-size:52px}#dm div.dmContent h5{font-size:20px}#dm div.dmContent h4{font-size:22px}#dm div.dmContent h2{font-size:45px}#dm .p_hfcontainer .main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer .main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before,#dm .p_hfcontainer .u_1783404857.main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer .u_1783404857.main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{font-size:14px!important}#dm .dmContent .dmRespRow{padding-top:15px}#dm .dmContent .dmRespRow .dmRespCol{padding-top:0}#dm .p_hfcontainer div.u_1623205752 img{border-radius:0!important;-moz-border-radius:0!important;-webkit-border-radius:0!important}#dm .p_hfcontainer .u_1783404857.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding-right:15px!important;padding-left:15px!important}#dm .dmInner div.dmHeader,#dm .dmInner div.dmHeader.u_hcontainer,#dm .dmInner div.u_hcontainer{background-color:rgba(255,255,255,1)!important;box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;-moz-box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;-webkit-box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important}#dm .p_hfcontainer nav.u_1783404857.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{color:rgba(61,72,82,1)!important;font-size:16px!important}#dm .p_hfcontainer .u_1783404857.main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer .u_1783404857.main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{font-size:16px!important}#dm .p_hfcontainer nav.u_1783404857.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item.dmNavItemSelected{color:rgba(64,181,114,1)!important}#dm .p_hfcontainer nav.u_1783404857.main-navigation.unifiednav.effect-bottom2 .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after{border-top-color:rgba(74,162,91,1)!important;border-top-width:1px!important;border-top-style:solid!important}#dm .dmInner div.u_hcontainer{float:none!important;top:0!important;left:0!important;width:100%!important;position:relative!important;height:auto!important;max-width:100%!important;min-width:0!important;text-align:center!important;padding:25px 0 20px!important;margin:0 auto!important}#dm .dmInner div.dmHeader.u_hcontainer{padding-bottom:20px!important;padding-top:25px!important}#dm .p_hfcontainer div.u_1952458124{padding:0!important}#dm .p_hfcontainer nav.u_1783404857.main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer nav.u_1783404857.main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{padding-top:0!important;padding-bottom:0!important;margin-top:0!important;margin-bottom:0!important}#dm .p_hfcontainer div.u_1783767067{background-color:rgba(255,255,255,1)!important;margin-top:0!important;padding:0 15px!important}#dm .dmInner div.fHeader .dmHeader[freeheader=true]{padding-bottom:15px!important;padding-top:15px!important}#dm .p_hfcontainer div.u_1603744404,#dm .p_hfcontainer div.u_1623205752{text-align:center!important;padding:0!important;float:none!important;top:0!important;left:0!important;position:relative!important}#dm .p_hfcontainer div.u_1467130560{padding-left:0!important}#dm .p_hfcontainer div.u_1603744404{width:calc(100% - 8px)!important;height:47px!important;max-width:199px!important;min-width:25px!important;margin:28px auto 10px!important}#dm .p_hfcontainer div.u_1623205752{width:calc(100% - 11px)!important;max-width:196px!important;min-width:25px!important;display:block!important;margin:6px auto 0!important}#dm .p_hfcontainer div.u_1068781528{padding-left:10px!important;padding-top:0!important}#dm .p_hfcontainer nav.u_1783404857{float:none!important;top:0!important;left:0!important;width:calc(100% - 107px)!important;position:relative!important;height:auto!important;max-width:718px!important;justify-content:flex-start!important;align-items:stretch!important;min-width:25px!important;text-align:start!important;padding:6px 15px 6.8px!important;margin:28px 107.33px 0!important}.widget-5bd886 .full{width:100%!important;height:100%!important}.widget-5bd886 .iconBg{display:block!important;width:100px}.widget-5bd886 .whatsapp-fill{fill:currentColor}.widget-5bd886 a{padding:0!important}.widget-5bd886 .wa-btns{margin:0!important}.widget-5bd886{margin:10px auto;width:278px}#dm .dmBody div.u_1414742659{background-color:rgba(0,0,0,0)!important}#dm .dmBody div.dmform-error{font-style:normal!important}#dm .dmBody .u_pa_8552430:before{opacity:.5!important;background-color:#000!important}#dm .dmBody div.u_pa_8552430:before{background-color:rgba(0,0,0,1)!important;opacity:.38!important}#dm .dmBody div.u_1725343333 .dmforminput label{color:rgba(137,137,137,1)!important;font-weight:400!important}#dm .dmBody div.u_1725343333 .dmforminput input{color:rgba(88,88,88,1)!important;font-weight:400!important}#dm .dmBody .u_1932082113:before{opacity:.5!important;background-color:#1c2330!important}#dm .dmBody div.u_1932082113:before{background-color:rgba(0,104,255,1)!important;opacity:.72!important}#dm .dmBody div.u_1725343333 input:not([type=submit]){border-style:solid!important;border-width:0!important;background-color:rgba(244,244,244,1)!important}#dm .dmBody div.u_1932082113{box-shadow:none!important;-moz-box-shadow:none!important;-webkit-box-shadow:none!important;background-color:rgba(0,0,0,0)!important}#dm .dmBody div.u_1326461418{background-color:rgba(255,255,255,1)!important;box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;-moz-box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;-webkit-box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;border-style:solid!important;border-width:5px 0 0!important;border-color:rgba(255,255,255,1)!important;border-right-color:rgba(253,22,85,1)!important;border-bottom-color:rgba(253,22,85,1)!important;border-top-color:rgba(245,116,0,1)!important}#dm .dmBody .u_1675132573{display:block!important}#dm .dmBody .u_1359706186{display:none!important}#dm .dmBody .u_1792509428{display:block!important}#dm .dmBody .u_1486718541{display:none!important}#dm .dmBody .u_1474404136{display:block!important}#dm .dmBody .u_1245615183{display:none!important}#dm .dmBody .u_1986559741{display:block!important}#dm .dmBody .u_1151881173{display:none!important}#dm .dmBody div.u_pa_8552430{background-color:rgba(0,0,0,0)!important;background-image:url(https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.03.29-1920w.png)!important}@media all and (min-width:1920px),all and (-webkit-min-device-pixel-ratio:1.5),all and (min--moz-device-pixel-ratio:1.5),all and (min-device-pixel-ratio:1.5){#dm .dmBody div.u_pa_8552430{background-color:rgba(0,0,0,0)!important;background-image:url(https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.03.29-2880w.png)!important;background-repeat:no-repeat!important}}#dm .dmBody div.u_1414742659{background-repeat:repeat!important;background-size:auto!important;background-position:center center!important;padding:0!important}#dm .dmBody h4.u_1960998276{float:none!important;top:0!important;left:0!important;width:647px!important;position:relative!important;height:auto!important;max-width:100%!important;min-width:0!important;text-align:center!important;display:block!important;padding:2px 0!important;margin:13px auto 8px!important}#dm .dmBody a.u_1364582791,#dm .dmBody div.u_1887497475,#dm .dmBody h1.u_1535123411{position:relative!important;padding:0!important;float:none!important;top:0!important;left:0!important;text-align:center!important;min-width:25px!important}#dm .dmBody div.u_1887497475{width:100%!important;max-width:calc(100% - 0px)!important;height:auto!important;margin:114px auto 0!important}#dm .dmBody h1.u_1535123411{line-height:normal!important;width:743px!important;height:auto!important;max-width:calc(100% - 296px)!important;display:block!important;margin:16px auto 0!important}#dm .dmBody a.u_1364582791{display:block!important;width:232px!important;height:53px!important;max-width:calc(100% - 362px)!important;margin:38px auto 0!important}#dm .dmBody h5.u_1484672827{float:none!important;top:0!important;left:0!important;width:1079px!important;position:relative!important;height:auto!important;max-width:calc(100% - 201px)!important;min-width:25px!important;text-align:center!important;display:block!important;padding:2px 0!important;margin:18px auto 8px!important}#dm .dmBody div.u_1531915135,#dm .dmBody h2.u_1971855449{float:none!important;left:0!important;width:100%!important;position:relative!important;height:auto!important;padding:2px 0!important;top:0!important}#dm .dmBody div.u_1531915135{max-width:calc(100% - 0px)!important;min-width:25px!important;text-align:left!important;margin:8px auto 0!important}#dm .dmBody h2.u_1971855449{max-width:100%!important;min-width:0!important;text-align:center!important;display:block!important;margin:0 auto 8px!important}#dm .dmBody div.u_1932082113,#dm .dmBody div.u_pa_8552430{float:none!important;max-width:none!important;left:0!important;width:100%!important;position:relative!important;min-width:0!important;text-align:center!important;height:auto!important;background-repeat:no-repeat!important;background-size:cover!important;background-attachment:fixed!important}#dm .dmBody div.u_1932082113{top:0!important;padding:50px 20px!important;margin:0!important}#dm .dmBody div.u_1326461418{margin-bottom:100px!important;margin-top:-200px!important;padding:15px 15px 0!important}#dm .dmBody div.u_pa_8552430{top:0!important;background-position:50% 0!important;padding:120px 0 0!important;margin:0!important}#dm .dmBody div.u_1005393732 .caption-container .caption-title{font-size:24px!important}:root{--button-color:#F66035;--button-hover-color:#F86F4C;--text-on-light:#F66035;--text-on-dark:#F66035;--text-on-button:#FFF;--header-color:#313131;--header-border-color:#222222;--header-text-color:#ffffff}#imageZone{position:absolute;margin:auto}.coloumns{border-radius:3px;background-color:#f9980d;height:18px;width:6px;-webkit-animation-name:loader;-webkit-animation-duration:1s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:linear;-moz-animation-name:loader;-moz-animation-duration:1s;-moz-animation-iteration-count:infinite;-moz-animation-direction:linear;opacity:.25;-webkit-transform:scale(.7);-webkit-transform-origin:50% 180%;-moz-transform:scale(.7);-moz-transform-origin:50% 180%;position:absolute}#coloumn1{-webkit-transform:rotate(0);-webkit-animation-delay:-.914s;-moz-transform:rotate(0);-moz-animation-delay:-.914s}#coloumn2{-webkit-transform:rotate(30deg);-webkit-animation-delay:-.831s;-moz-transform:rotate(30deg);-moz-animation-delay:-.831s}#coloumn3{-webkit-transform:rotate(60deg);-webkit-animation-delay:-.747s;-moz-transform:rotate(60deg);-moz-animation-delay:-.747s}#coloumn4{-webkit-transform:rotate(90deg);-webkit-animation-delay:-.664s;-moz-transform:rotate(90deg);-moz-animation-delay:-.664s}#coloumn5{-webkit-transform:rotate(120deg);-webkit-animation-delay:-.581s;-moz-transform:rotate(120deg);-moz-animation-delay:-.581s}#coloumn6{-webkit-transform:rotate(150deg);-webkit-animation-delay:-.498s;-moz-transform:rotate(150deg);-moz-animation-delay:-.498s}#coloumn7{-webkit-transform:rotate(180deg);-webkit-animation-delay:-.415s;-moz-transform:rotate(180deg);-moz-animation-delay:-.415s}#coloumn8{-webkit-transform:rotate(210deg);-webkit-animation-delay:-.332s;-moz-transform:rotate(210deg);-moz-animation-delay:-.332s}#coloumn9{-webkit-transform:rotate(240deg);-webkit-animation-delay:-.249s;-moz-transform:rotate(240deg);-moz-animation-delay:-.249s}#coloumn10{-webkit-transform:rotate(270deg);-webkit-animation-delay:-.166s;-moz-transform:rotate(270deg);-moz-animation-delay:-.166s}#coloumn11{-webkit-transform:rotate(300deg);-webkit-animation-delay:-83ms;-moz-transform:rotate(300deg);-moz-animation-delay:-83ms}#coloumn12{-webkit-transform:rotate(330deg);-moz-transform:rotate(330deg)}@-webkit-keyframes loader{0%{opacity:1}100%{opacity:.25}}@-moz-keyframes loader{0%{opacity:1}100%{opacity:.25}}
+    .dmDesktopBody [data-anim-desktop]:not([data-anim-desktop='none']) {
+        visibility: hidden;
+    }
+
+    
+</style>
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+  <title>
+    Hands at Work  Construction,  Building, Roofing Contractor
+  </title>
+  <meta name="keywords" content="Construction Building, Contractor Roof Contractor Waterproofing Contractor Renovating Contractor Paint"/>
+  <meta name="description" content="Our main aim to be the best in the building and contracting industry with quality workmanship at reasonable rates. We give a guarantee on all our projects undertaken.  We want to be the most reputable company by outsourcing on the best efficient reliable trustworthy tradesman to give our customers that peace of mind."/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Hands at Work  Construction,  Building, Roofing Contractor"/>
+  <meta name="twitter:description" content="Our main aim to be the best in the building and contracting industry with quality workmanship at reasonable rates. We give a guarantee on all our projects undertaken.  We want to be the most reputable company by outsourcing on the best efficient reliable trustworthy tradesman to give our customers that peace of mind."/>
+  <meta name="twitter:image" content="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.19.32-1920w.png"/>
+  <meta property="og:description" content="Our main aim to be the best in the building and contracting industry with quality workmanship at reasonable rates. We give a guarantee on all our projects undertaken.  We want to be the most reputable company by outsourcing on the best efficient reliable trustworthy tradesman to give our customers that peace of mind."/>
+  <meta property="og:title" content="Hands at Work  Construction,  Building, Roofing Contractor"/>
+  <meta property="og:image" content="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.19.32-1920w.png"/>
+
+
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot"  class="supportsFontIcons supportsFontIcons dmRoot dmDesktopBody fix-mobile-scrolling dmResellerSite dmLargeBody " style="padding:0;margin:0;"
+            >
+        <div id="disabledImageZone" style="display:none;z-index:-1">
+            <style type="text/css">#imageZone {
+                    position: absolute;
+                    margin: auto;
+                }
+
+                .coloumns {
+                    border-radius: 3px;
+                    background-color: rgb(249, 152, 13); /*border:1px solid #999;*/
+                    height: 18px;
+                    width: 6px;
+                    -webkit-animation-name: loader;
+                    -webkit-animation-duration: 1s;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-direction: linear;
+                    -moz-animation-name: loader;
+                    -moz-animation-duration: 1s;
+                    -moz-animation-iteration-count: infinite;
+                    -moz-animation-direction: linear;
+                    opacity: .25;
+                    -webkit-transform: scale(0.7);
+                    -webkit-transform-origin: 50% 180%;
+                    -moz-transform: scale(0.7);
+                    -moz-transform-origin: 50% 180%;
+                    position: absolute;
+                }
+
+                #coloumn1 {
+                    -webkit-transform: rotate(0deg);
+                    -webkit-animation-delay: -.914s;
+                    -moz-transform: rotate(0deg);
+                    -moz-animation-delay: -.914s;
+                }
+
+                #coloumn2 {
+                    -webkit-transform: rotate(30deg);
+                    -webkit-animation-delay: -.831s;
+                    -moz-transform: rotate(30deg);
+                    -moz-animation-delay: -.831s;
+                }
+
+                #coloumn3 {
+                    -webkit-transform: rotate(60deg);
+                    -webkit-animation-delay: -.747s;
+                    -moz-transform: rotate(60deg);
+                    -moz-animation-delay: -.747s;
+                }
+
+                #coloumn4 {
+                    -webkit-transform: rotate(90deg);
+                    -webkit-animation-delay: -.664s;
+                    -moz-transform: rotate(90deg);
+                    -moz-animation-delay: -.664s;
+                }
+
+                #coloumn5 {
+                    -webkit-transform: rotate(120deg);
+                    -webkit-animation-delay: -.581s;
+                    -moz-transform: rotate(120deg);
+                    -moz-animation-delay: -.581s;
+                }
+
+                #coloumn6 {
+                    -webkit-transform: rotate(150deg);
+                    -webkit-animation-delay: -.498s;
+                    -moz-transform: rotate(150deg);
+                    -moz-animation-delay: -.498s;
+                }
+
+                #coloumn7 {
+                    -webkit-transform: rotate(180deg);
+                    -webkit-animation-delay: -.415s;
+                    -moz-transform: rotate(180deg);
+                    -moz-animation-delay: -.415s;
+                }
+
+                #coloumn8 {
+                    -webkit-transform: rotate(210deg);
+                    -webkit-animation-delay: -.332s;
+                    -moz-transform: rotate(210deg);
+                    -moz-animation-delay: -.332s;
+                }
+
+                #coloumn9 {
+                    -webkit-transform: rotate(240deg);
+                    -webkit-animation-delay: -.249s;
+                    -moz-transform: rotate(240deg);
+                    -moz-animation-delay: -.249s;
+                }
+
+                #coloumn10 {
+                    -webkit-transform: rotate(270deg);
+                    -webkit-animation-delay: -.166s;
+                    -moz-transform: rotate(270deg);
+                    -moz-animation-delay: -.166s;
+                }
+
+                #coloumn11 {
+                    -webkit-transform: rotate(300deg);
+                    -webkit-animation-delay: -.083s;
+                    -moz-transform: rotate(300deg);
+                    -moz-animation-delay: -.083s;
+                }
+
+                #coloumn12 {
+                    -webkit-transform: rotate(330deg);
+                    -moz-transform: rotate(330deg);
+                }
+
+                @-webkit-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+
+                @-moz-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+            </style>
+            <div id='imageZone'>
+                <div id='coloumn1' class='coloumns'></div>
+                <div id='coloumn2' class='coloumns'></div>
+                <div id='coloumn3' class='coloumns'></div>
+                <div id='coloumn4' class='coloumns'></div>
+                <div id='coloumn5' class='coloumns'></div>
+                <div id='coloumn6' class='coloumns'></div>
+                <div id='coloumn7' class='coloumns'></div>
+                <div id='coloumn8' class='coloumns'></div>
+                <div id='coloumn9' class='coloumns'></div>
+                <div id='coloumn10' class='coloumns'></div>
+                <div id='coloumn11' class='coloumns'></div>
+                <div id='coloumn12' class='coloumns'></div>
+            </div>
+        </div>
+
+        <!-- ========= Site Content ========= -->
+        <div id="dm" class='dmwr'>
+            
+            <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+                 <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-home hasAnimations dmPageBody d-page-1716942098 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-buttonstyle="BORDER_SHORT" data-soch="true" data-background-size="cover" data-background-attachment="fixed" data-background-repeat="no-repeat" data-background-position="50% 0%" data-background-hide-inner="true" data-background-fullbleed="false" data-background-parallax-selector=".dmSectionParallex" data-background-parallax-speed="0.2"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None"></ul> 
+ <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" has-shadow="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="dmRespRow dmDefaultListContentRow u_1783767067 fullBleedChanged fullBleedMode" style="text-align:center" id="1783767067"> <div class="dmRespColsWrapper" id="1527230018"> <div class="u_1952458124 small-12 dmRespCol large-2 medium-2" id="1952458124"> <div class="u_1623205752 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1623205752" data-element-type="image"> <a href="index.html" id="1829253137" dm_dont_rewrite_url="false" file="false"><img src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+16.57.19-480w.png" id="1359157006" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+16.57.19.png" data-hover-effect="none" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1068781528 dmRespCol small-12 large-8 medium-8" id="1068781528"> <span id="1605138758"></span> 
+ <nav class="u_1783404857 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1783404857" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-nav-structure="HORIZONTAL" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="false"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_00  " target="" data-target-page-alias="" data-auto&#x3d;selected-page=""> <span class="nav-item-text " data-link-text="
+                  
+         Home
+        
+                " data-auto&#x3d;page-text-style="">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="about-us.html" class="unifiednav__item  dmUDNavigationItem_010101325370  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         About Us
+        
+                " data-auto&#x3d;page-text-style="">About Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="Services.html" class="unifiednav__item  dmUDNavigationItem_010101298332  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Services
+        
+                " data-auto&#x3d;page-text-style="">Services<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="Contact.html" class="unifiednav__item  dmUDNavigationItem_010101960562  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Contact
+        
+                " data-auto&#x3d;page-text-style="">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="systemadmin.html" class="unifiednav__item  dmUDNavigationItem_010101342348  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         SystemAdmin
+        
+                " data-auto&#x3d;page-text-style="">SystemAdmin<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1467130560 dmRespCol small-12 large-2 medium-2" id="1467130560"> <span id="1692637248"></span> 
+ <div class="u_1603744404 widget-5bd886 dmCustomWidget" data-lazy-load="" id="1603744404" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="5bd886efb15a44fd98f083f461519ec8" data-widget-version="186" data-widget-config="eyJ3YU51bWJlciI6IisyNyA4MiAwNDEgMTUxNSIsImJ0blRleHQiOiIgV2hhdHNBcHAgdXMiLCJkZWZhdWx0TWVzc2FnZSI6IiIsImFsdCI6Ik1lc3NhZ2UgdXMgb24gV2hhdHNBcHAiLCJ3YUxheW91dCI6ImJ0bldpdGhJY29uIn0="> <a data-display-type="block" class="dmWidget wa-btns default align-center full" target="_blank" data-buttonstyle="FLAT_ROUND_ICON"> <span class="iconBg"> <span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewbox="-5 -5 39 38"> <g class="whatsapp-fill" fill-rule="nonzero"> <path d="M10.743 8.158c-.259-.571-.531-.583-.777-.593-.202-.008-.432-.008-.663-.008-.23 0-.604.086-.921.43-.317.342-1.21 1.171-1.21 2.857 0 1.686 1.239 3.316 1.411 3.544.173.229 2.391 3.8 5.903 5.173 2.92 1.142 3.513.915 4.147.857.634-.057 2.044-.828 2.332-1.629.288-.8.288-1.486.202-1.629-.086-.143-.317-.228-.662-.4-.346-.171-2.045-1-2.362-1.115-.316-.114-.547-.17-.777.172-.23.343-.892 1.115-1.094 1.343-.202.23-.403.258-.749.086-.345-.172-1.458-.533-2.779-1.7-1.027-.909-1.72-2.03-1.922-2.374-.202-.342-.022-.528.152-.699.155-.153.345-.4.518-.6.172-.2.23-.343.345-.571.115-.23.058-.43-.029-.6-.086-.172-.758-1.867-1.065-2.544z"></path> 
+ <path d="M14.347 25.116h-.004a11.554 11.554 0 0 1-5.85-1.589l-.42-.247-4.351 1.132 1.161-4.205-.273-.432a11.296 11.296 0 0 1-1.758-6.064c.003-6.283 5.16-11.395 11.5-11.395a11.469 11.469 0 0 1 8.126 3.342 11.279 11.279 0 0 1 3.364 8.062c-.003 6.284-5.16 11.396-11.495 11.396M24.13 4.021A13.802 13.802 0 0 0 14.347 0C6.724 0 .52 6.15.517 13.71c0 2.416.636 4.775 1.846 6.854L.401 27.67l7.332-1.906a13.912 13.912 0 0 0 6.608 1.669h.006c7.622 0 13.827-6.152 13.83-13.711a13.57 13.57 0 0 0-4.047-9.7"></path> 
+</g> 
+</svg> 
+</span> 
+</span> 
+ <span class="text">WhatsApp us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"></div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1901957768" class="dmBody u_dmStyle_template_home dm-home-page" themewaschanged="true"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl" id="1716942098"> <div class="u_pa_8552430 dmRespRow fullBleedChanged fullBleedMode hasBackgroundOverlay dmSectionNoParallax" style="text-align: center;" id="pa_8552430" mode="1" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9saXJwLWNkbi5tdWx0aXNjcmVlbnNpdGUuY29tL2VjNmZmOGUyL2RtczNyZXAvbXVsdGkvb3B0L2ZvdG9saWFfODUxMzM0NTMtMTkyMHcuanBnIl0sInNwZWVkIjoiNCJ9"> <div class="dmRespColsWrapper u_1568127116" id="1568127116"> <div class="u_1414742659 dmRespCol small-12 medium-12 large-12" id="1414742659"> <span id="1346630203"></span> 
+ <h4 class="u_1960998276 dmNewParagraph" data-element-type="paragraph" id="1960998276" data-uialign="center" style="transition: opacity 1s ease-in-out;"><font style="color: rgb(255, 255, 255);">Since 2013</font></h4> <h1 class="u_1535123411 dmNewParagraph" data-element-type="paragraph" id="1535123411" data-uialign="center" style="transition: none; display: block;" data-editor-state="closed"><div><font color="#ffffff">Offers Quality Construction and Revamping Services</font></div></h1> <h5 class="u_1484672827 dmNewParagraph" data-element-type="paragraph" id="1484672827" data-uialign="center" style="transition-duration: initial; transition-timing-function: initial; transition-delay: initial; transition-property: none; display: block;" data-editor-state="closed"><div><font color="#ffffff">Offers The Best Service and Price in&nbsp; JHB North.</font></div></h5> <a data-display-type="block" class="u_1364582791 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="mailto:info.handsatwork@gmail.com" id="1364582791" data-element-type="dButtonLinkId" dm_dont_rewrite_url="false"> <span class="iconBg" id="1000392000"> <span class="icon hasFontIcon icon-star" id="1521504631"></span> 
+</span> 
+ <span class="text" id="1514494140">Get A Quote</span> 
+</a> 
+ <div class="u_1887497475 imageWidget align-center" editablewidget="true" data-element-type="image" data-widget-type="image" id="1887497475"><img src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/landing_page_white_background-2880w.png" id="1402879476" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/landing_page_white_background.png" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1932082113 dmRespRow dmSectionParallaxNew mobile-columns-reversed" style="text-align: center;" id="1932082113" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9saXJwLWNkbi5tdWx0aXNjcmVlbnNpdGUuY29tL21kL3Vuc3BsYXNoL2RtczNyZXAvbXVsdGkvb3B0L3Bob3RvLTE1MDI0ODcxMDMzNjctYzk4ZjcxOTYwNGY2LTE5MjB3LmpwZyJdLCJzcGVlZCI6IjMiLCJ0cmFuc2l0aW9uIjoic2xpZGVSaWdodCJ9" mode="1"> <div class="dmRespColsWrapper" id="1000132001"> <div class="u_1715168022 dmRespCol small-12 large-3 medium-3" id="1715168022" data-anim-desktop="fadeInLeft"> <div class="u_1139974427 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1139974427" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 70 70" id="1274762224" class="svg u_1274762224" data-icon-name="wp-doctor_thin"> <g id="1316347893"> <path d="M58.5,48.3c-0.4-2.5-2-4.6-4.3-5.5l-11.3-4.5L42,35.8v-1.7l1.5-4.2c0.5-0.1,1.3-0.3,1.9-0.8c1.1-0.9,1.7-2.3,1.7-3.8
+		c0-1.2-0.5-2-0.9-2.4c-0.4-0.3-0.8-0.6-1.1-0.7v-3.8c0-3.4-1.6-5.8-4.1-6.1c-1.3-2-4-2.3-5.9-2.3c-5.9,0-10,3.3-10,8v4.2
+		c-0.4,0.1-0.8,0.3-1.1,0.7C23.5,23.3,23,24,23,25.3c0,1.6,0.6,2.9,1.7,3.8c0.6,0.5,1.3,0.7,1.9,0.8l1.5,4.2v1.7l-0.8,2.4l-11.3,4.5
+		c-2.3,0.9-4,3-4.3,5.5L10,60h50L58.5,48.3z M28,28l-0.7,0c-0.2,0-0.9-0.1-1.3-0.4c-0.6-0.5-1-1.4-1-2.3c0-1,0.5-1.2,1-1.3l1,0v-6
+		c0-3.5,3.3-6,8-6c3.2,0,4,1,4.4,1.7l0.3,0.6h0.6c2,0,2.7,2.1,2.7,4.1V24l1,0c0,0,0.4,0,0.7,0.3c0.2,0.2,0.3,0.5,0.3,1
+		c0,1-0.3,1.8-1,2.3C43.6,27.9,43,28,42.8,28H42l-2,5.8v1.7l-5,3.8l-5-3.8v-1.7L28,28z M41,39L40,43l-3.3-2.5l3.8-2.9L41,39z
+		 M36.6,43L35,44.6L33.4,43l1.6-1.2L36.6,43z M33.4,40.5L30,43.1l-1-4l0.5-1.4L33.4,40.5z M12.3,58l1.2-9.4c0.3-1.8,1.4-3.3,3.1-3.9
+		l10.7-4.3L31.7,58H12.3z M30.6,45.2l1.2-0.9l1.8,1.8l-0.1,0.1l0,0c-0.6,0.7-1.3,1.9-1.8,3.7L30.6,45.2z M36.2,58h-2.4L33,54.9
+		c0-4.1,1.2-6.4,2-7.4c0.8,1,2,3.3,2,7.4L36.2,58z M36.5,46.1L36.5,46.1L36.4,46l1.8-1.8l1.2,0.9l-1.2,4.7
+		C37.8,48,37,46.8,36.5,46.1z M38.3,58l4.4-17.6l10.7,4.3c1.7,0.7,2.8,2.2,3.1,3.9l1.2,9.4H38.3z" id="1321586349"></path> 
+ <polygon points="50,47 48,47 48,50 45,50 45,52 48,52 48,55 50,55 50,52 53,52 53,50 50,50 	" id="1552249488"></polygon> 
+</g> 
+</svg> 
+</div> 
+ <h3 class="u_1477363021 dmNewParagraph" id="1477363021" data-uialign="left" style="display: block;" data-element-type="paragraph"><div style="text-align: left;"><font color="#284053"><span class="font-size-17 lh-1"><b>Trained Tradesman</b></span></font></div></h3> <div class="u_1871880097 dmNewParagraph" data-dmtmpl="true" id="1871880097" data-uialign="left" style="transition: opacity 1s ease-in-out; display: block;"><div style="text-align: left;"><font color="#b7b7b7">All of our staff are trained and friendly&nbsp;</font></div></div> <div class="u_1466910436 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1466910436" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 70 70" id="1853534867" class="svg u_1853534867" data-icon-name="wp-bank"> <g id="1572081932"> <polygon points="35,10 10,24 60,24 	" id="1493821572"></polygon> 
+ <rect x="8" y="58" width="54" height="2" id="1540172762"></rect> 
+ <path d="M60,54h-2c0-1.3-0.8-2.4-2-2.8V30.8c1.2-0.4,2-1.5,2-2.8h2v-2H10v2h2c0,1.3,0.8,2.4,2,2.8v20.3c-1.2,0.4-2,1.5-2,2.8h-2v2
+		h50V54z M20,51.2V30.8c1.2-0.4,2-1.5,2-2.8c0,1.3,0.8,2.4,2,2.8v20.3c-1.2,0.4-2,1.5-2,2.8C22,52.7,21.2,51.6,20,51.2z M32,54
+		c0-1.3-0.8-2.4-2-2.8V30.8c1.2-0.4,2-1.5,2-2.8h6c0,1.3,0.8,2.4,2,2.8v20.3c-1.2,0.4-2,1.5-2,2.8H32z M50,51.2
+		c-1.2,0.4-2,1.5-2,2.8c0-1.3-0.8-2.4-2-2.8V30.8c1.2-0.4,2-1.5,2-2.8c0,1.3,0.8,2.4,2,2.8V51.2z" id="1567017944"></path> 
+</g> 
+</svg> 
+</div> 
+ <h3 class="u_1066945966 dmNewParagraph" id="1066945966" data-uialign="left" style="display: block;" data-element-type="paragraph"><div style="text-align: left;"><font color="#284053"><span style="font-size: 17px;"><b>Building Conractors</b></span></font></div></h3> <div class="u_1118853892 dmNewParagraph" data-dmtmpl="true" id="1118853892" data-uialign="left" style="transition: opacity 1s ease-in-out; display: block;"><div style="text-align: left;"><font color="#b7b7b7">Projects at any size.</font></div></div></div> 
+ <div class="u_1537807859 dmRespCol small-12 large-3 medium-3" id="1537807859" data-anim-desktop="fadeInLeft"> <div class="u_1942418380 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1942418380" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1167471819" class="svg u_1167471819" data-icon-name="li-certificate"> <g id="1313697455"> <path d="M81.6,18.4L69.3,6.1c-0.2-0.2-0.5-0.4-0.9-0.4H19.3c-0.7,0-1.2,0.5-1.2,1.2v73.7c0,0.7,0.5,1.2,1.2,1.2h35.6v12.4l7.4-4.2
+		l7.4,4.2V81.9h11.1c0.7,0,1.2-0.5,1.2-1.2V19.3C81.9,18.9,81.8,18.6,81.6,18.4z M69.6,9.9l8.1,8.1h-8.1V9.9z M62.3,76.6
+		c-6.1,0-11.1-5-11.1-11.1s5-11.1,11.1-11.1s11.1,5,11.1,11.1S68.4,76.6,62.3,76.6z M62.3,87.2L57.4,90v-12c1.5,0.6,3.2,0.9,4.9,0.9
+		s3.4-0.3,4.9-0.9v12L62.3,87.2z M79.5,79.4h-9.8v-2.6c3.7-2.4,6.1-6.6,6.1-11.3c0-7.4-6.1-13.5-13.5-13.5s-13.5,6.1-13.5,13.5
+		c0,4.7,2.4,8.9,6.1,11.3v2.6H20.5V8.2h46.7v11.1c0,0.7,0.5,1.2,1.2,1.2h11.1V79.4z" id="1967761439"></path> 
+ <rect x="31.6" y="30.3" width="36.8" height="2.5" id="1730699548"></rect> 
+ <rect x="31.6" y="42.6" width="24.6" height="2.5" id="1707382086"></rect> 
+</g> 
+</svg> 
+</div> 
+ <h3 class="u_1319605806 dmNewParagraph" id="1319605806" data-uialign="left" style="display: block;" data-element-type="paragraph"><div style="text-align: left;"><font color="#284053"><span class="font-size-17 lh-1"><b>Qualification</b></span></font></div></h3> <div class="u_1464779641 dmNewParagraph" data-dmtmpl="true" id="1464779641" data-uialign="left" style="transition: opacity 1s ease-in-out; display: block;"><div style="text-align: left;"><font color="#b7b7b7">Site Forman, Construction Supervisor and Assistant Quantity Surveyor</font></div></div> <div class="u_1945927194 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1945927194" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1154609700" class="svg u_1154609700" data-icon-name="li_bulb"> <g id="1543791421"> <path d="M45.3,14.4c-13.3,0-24.1,10.8-24.1,24.1c0,8.3,4.4,16.1,11.5,20.5V73c0,7,5.7,12.6,12.6,12.6c7,0,12.6-5.7,12.6-12.6V59
+		c7.1-4.4,11.5-12.2,11.5-20.5C69.4,25.2,58.6,14.4,45.3,14.4z M45.3,83.3C39.6,83.3,35,78.7,35,73v-4.5h20.7V73
+		C55.6,78.7,51,83.3,45.3,83.3z M56.2,57.4l-0.6,0.3v8.5H35v-8.5l-0.6-0.3c-6.7-3.9-10.9-11.1-10.9-18.9c0-12,9.8-21.8,21.8-21.8
+		c12,0,21.8,9.8,21.8,21.8C67.1,46.3,62.9,53.5,56.2,57.4z" id="1547245455"></path> 
+ <path d="M45.3,25.9c-7,0-12.6,5.7-12.6,12.6H35c0-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3h2.3
+		C57.9,31.6,52.3,25.9,45.3,25.9z" id="1520050446"></path> 
+</g> 
+</svg> 
+</div> 
+ <h3 class="u_1798976443 dmNewParagraph" id="1798976443" data-uialign="right" style="display: block;" data-element-type="paragraph"><div style="text-align: left;"><font color="#284053"><span style="font-size: 17px;"><b>Improvement</b></span></font></div></h3> <div class="u_1618290380 dmNewParagraph" data-dmtmpl="true" id="1618290380" data-uialign="left" style="transition: opacity 1s ease-in-out; display: block;"><div style="text-align: left;"><font color="#b7b7b7">Improvements to any home or office is an investment.</font></div></div></div> 
+ <div class="u_1026772685 dmRespCol small-12 large-1 medium-1" id="1026772685"> <div data-element-type="spacer" class="u_1005279426 dmSpacer" id="1005279426"></div> 
+</div> 
+ <div class="u_1326461418 dmRespCol small-12 large-5 medium-5" id="1326461418" data-anim-desktop="fadeInRight"> <h2 class="u_1971855449 dmNewParagraph" id="1971855449" data-uialign="center" style="transition-duration: 1s; transition-timing-function: ease-in-out; transition-delay: initial; transition-property: opacity; display: block;" data-editor-state="closed" data-element-type="paragraph"><div style="text-align: center;"><span style="font-size: 25px;">GET IN TOUCH NOW</span></div></h2> <div class="u_1531915135 dmNewParagraph" data-dmtmpl="true" id="1531915135" data-uialign="center" style="transition: opacity 1s ease-in-out;"><div style="text-align: center;">To cut down on your waiting time, simply book your Free Quotation appointment online.</div></div> <div class="u_1725343333 dmform default" preserve_css="true" id="1725343333" data-layout="layout-1" data-element-type="dContactUsRespId"> <h3 class="dmform-title dmwidget-title" id="1678128416" hide="true"></h3> 
+ <div class="dmform-wrapper" preserve_css="true" id="1460956071" captcha-lang="en"> <form method="post" class="dmRespDesignRow" locale="ENGLISH" id="1637647394"> <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1406328158"> <label for="dmform-0" id="1257653483" class=""></label> 
+<input type="text" class="" name="dmform-0" id="1955963779" placeholder="Name"/><input type="hidden" name="label-dmform-0" id="1653081698" class=""/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1238032622"> <label for="dmform-1" id="1347103128" class=""></label> 
+<input type="email" class="" name="dmform-1" id="1163794914" placeholder="Email"/><input type="hidden" name="label-dmform-1" id="1898318943" class=""/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1612829256"> <label for="dmform-2" id="1529729807" class=""></label> 
+<input type="tel" class="" name="dmform-2" id="1601304929" placeholder="Phone"/><input type="hidden" name="label-dmform-2" id="1722822095" class=""/></div> 
+ <div class="dmforminput small-12 dmRespDesignCol medium-4 large-4 medium-12 large-12" id="1956118574"> <label for="dmform-4" id="1613534782" class="" hide="true"></label> 
+ <textarea name="dmform-4" id="1743584965" class="" placeholder="Notes"></textarea> 
+<input type="hidden" name="label-dmform-4" id="1800725221" class=""/></div> 
+ <span id="1270230306" class="dmWidgetClear"></span> 
+ <div class="dmformsubmit dmWidget R" preserve_css="true" id="1060560946"><input class="" name="submit" type="submit" value="SEND" id="1140431633"/></div> 
+<input name="dmformsendto" type="hidden" value="O0wrseIfFLvVSS+rLVbdr7FJognk8dlbhwtHqIBym3WVu7F+Np59LWBugaxUzXMCb7IzAWfKHUE=" preserve_css="true" id="1031287241" data-dec="true"/><input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1415654100"/><input name="dmformsubject" type="hidden" value="Form Message" preserve_css="true" id="1866446141"/></form> 
+</div> 
+ <div class="dmform-success" style="display:none" preserve_css="true" id="1501101813">Thank you for contacting us.<br id="1216136920"/>We will get back to you as soon as possible</div> 
+ <div class="dmform-error" style="display:none" preserve_css="true" id="1060825813">Oops, there was an error sending your message.<br id="1837458264"/>Please try again later</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1435415756"> <div class="dmRespColsWrapper" id="1554261617"> <div class="dmRespCol large-12 medium-12 small-12" id="1240052208"> <div data-element-type="dYouTubeId" class="u_1675276355 youtubeExt dmNoMark youtube-padding-fix" id="1675276355"> <div class="innerYoutubeExt" id="1022674590"> <iframe id="1436611861" src="https://www.youtube.com/embed/XOUnGGxBCrE" frameborder="0" allowfullscreen=""></iframe> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_Firstrow dmRespRow" style="text-align: center;" id="Firstrow" data-anchor="First row"> <div class="dmRespColsWrapper" id="1803822067"> <div class="u_1168769386 dmRespCol small-12 large-7 medium-7" id="1168769386" data-anim-desktop="fadeInLeft"> <span id="1744189700"></span> 
+ <div class="u_1404422720 dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1404422720"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1167309219"/></div> 
+ <h3 class="u_1223738369 dmNewParagraph" id="1223738369" data-uialign="left" style="transition: none; display: block;" data-element-type="paragraph"><div><b></b></div><span style=""><div style="">We Pride Our Selfs As Building and Renovation Contrators.</div></span><b></b><div></div></h3> <div class="u_1133585218 dmNewParagraph" data-dmtmpl="true" id="1133585218" data-uialign="left" style="transition: opacity 1s ease-in-out; display: block; direction: ltr; text-align: left;"><div style="text-align: left; ">We are a unique core of multi skilled tradesman dedicated to service excellence. After working for several years in big construction companies holding management positions as site foreman, construction supervisor ,assistant quantity surveyor, I thought of going sole in 2010 with the vast &ndash;experience gained.&nbsp;</div><div style="text-align: left; "><br/></div><div style="text-align: left; ">I started very small later on invited few of my other tradesman to join me .it has been quite journey but great thanks to the challenges we met on the way. They made us even stronger hence we can tackle any kind of building project because our strength is in team work where each and every one of us partake to produce the desired results. We revamp, modernise houses, offices, into most desirable homes/offices.</div><div style="text-align: left; "><br/></div><div style="text-align: left; ">That time of the year again to give houses/offices some tender love, turning them into most desirable homes/offices.</div></div></div> 
+ <div class="u_1273249706 dmRespCol small-12 large-5 medium-5" id="1273249706"> <div class="u_1308875054 imageWidget align-center hasFullWidth" editablewidget="true" data-element-type="image" data-widget-type="image" id="1308875054" data-anim-desktop="fadeInUp"><img src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.06.28-400w.png" id="1609476611" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.06.28.png" data-hover-effect="none" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1443239238" style="text-align: center;" id="1443239238"> <div class="dmRespColsWrapper" id="1094411871"> <div class="dmRespCol small-12 medium-12 large-12" id="1243033545"> <div data-element-type="dYouTubeId" class="u_1624646489 youtubeExt dmNoMark youtube-padding-fix" id="1624646489"> <div class="innerYoutubeExt" id="1775900611"> <iframe id="1411664127" src="https://www.youtube.com/embed/DBlMah2cU7c" frameborder="0" allowfullscreen=""></iframe> 
+</div> 
+</div> 
+ <h2 class="u_1223712786 dmNewParagraph" id="1223712786" data-uialign="center" data-element-type="paragraph" data-styletopreserve="{" background-image="" :=""><div style="text-align: center;"><span style="background-color: transparent;" class="font-size-30 lh-1"><b><span style="font-weight: 700;" class="m-specific lh-1 font-size-40 m-font-size-30"><font style="color: rgb(40, 64, 83);">Our Services</font></span></b></span></div></h2> <div class="u_1692640121 dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1692640121"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1786241116"/></div> 
+ <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1581896344" style="text-align: center; transition: opacity 1s ease-in-out 0s;" data-uialign="center"><div><span style="font-size: 20px;">That time of the year again to give houses/offices some tender love, turning them into most desirable homes/offices.</span></div></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1253368477"> <div class="dmRespColsWrapper" id="1469427673"> <div class="dmRespCol large-12 medium-12 small-12" id="1050166750"> <div class="dmPhotoGallery newPhotoGallery dmPhotoGalleryResp u_1005393732" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="bottom" id="1005393732" data-placeholder="false" data-desktop-caption-alignment="center_left"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1837906745" dont_set_id="true"> <li index="0" class="photoGalleryThumbs" id="1075587052"> <div class="image-container" id="1898583877"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1521783593447-5702b9bfd267.jpg" id="1905213693" class="u_1905213693"><img data-src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1521783593447-5702b9bfd267-1920w.jpg" irh="1" irw="2" id="1791534689" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container " id="1871953127"> <span class="caption-inner" id="1898055547"> <h3 class="caption-title" id="1864260044">Bathroom Renovations</h3> 
+ <div class="caption-text" id="1184677775"><p class="rteBlock">A new clean Bathroom.</p></div> <a class="caption-button dmWidget  displayNone  clearfix" href="" id="1425791277"> <span class="iconBg" id="1588609147"> <span class="icon hasFontIcon icon-star" id="1423513634"></span> 
+</span> 
+ <span class="text" id="1153398074">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1025377551"> <div class="image-container" id="1263264796"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+19.12.14.png" id="1514343576" class="u_1514343576"><img irh="" irw="" data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.12.14-1920w.png" id="1912908663" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container u_1986559741" style="display:none" id="1986559741"> <span class="caption-inner" id="1891666747"> <h3 class="caption-title u_1966817002" id="1966817002">Handyman Service</h3> 
+ <div class="caption-text u_1104145005" id="1104145005"><p class="rteBlock">Proffesional Handyman Services</p></div> <a class="caption-button dmWidget clearfix u_1151881173" id="1151881173"> <span class="iconBg" id="1345806882"> <span class="icon hasFontIcon icon-star" id="1673554602"></span> 
+</span> 
+ <span class="text" id="1325696159">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="1" class="photoGalleryThumbs" id="1386870689"> <div class="image-container" id="1039019185"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+21.32.54.png" id="1304290721" class="u_1304290721"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+21.32.54-1920w.png" irh="2" irw="3" id="1618925425" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container " id="1719130490"> <span class="caption-inner" id="1095112415"> <h3 class="caption-title" id="1730216233">Wall And Roof Painting</h3> 
+ <div class="caption-text" id="1091425779"><p class="rteBlock">Full Wall or Roof Painting Services</p></div> <a class="caption-button dmWidget  displayNone  clearfix" href="" id="1058530805"> <span class="iconBg" id="1222257584"> <span class="icon hasFontIcon icon-star" id="1788963987"></span> 
+</span> 
+ <span class="text" id="1852116898">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1461562763"> <div class="image-container" id="1617581354"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/WhatsApp+Image+2020-02-05+at+14.56.18.jpeg" id="1338694015" class="u_1338694015"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/WhatsApp+Image+2020-02-05+at+14.56.18-1920w.jpeg" irh="3" irw="4" id="1072920957" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container " id="1586478427"> <span class="caption-inner" id="1931694102"> <h3 class="caption-title" id="1417349806">Plumbing And Electrical</h3> 
+ <div class="caption-text" id="1209511903"><p class="rteBlock">Home or Office Blumbing and Electrical Work</p></div> <a class="caption-button dmWidget  displayNone  clearfix" href="" id="1839550841"> <span class="iconBg" id="1128749929"> <span class="icon hasFontIcon icon-star" id="1772974861"></span> 
+</span> 
+ <span class="text" id="1220522218">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1313618489"> <div class="image-container" id="1341979135"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+19.28.28.png" id="1744231384" class="u_1744231384"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.28.28-1920w.png" irh="4" irw="5" id="1810146194" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container " id="1983738554"> <span class="caption-inner" id="1972126251"> <h3 class="caption-title" id="1193655830">Roof Repairs and Maintenance</h3> 
+ <div class="caption-text" id="1511789097"><p class="rteBlock">New Roofs Repair and Maintenance.</p></div> <a class="caption-button dmWidget  displayNone  clearfix" href="" id="1273034537"> <span class="iconBg" id="1456934387"> <span class="icon hasFontIcon icon-star" id="1636621117"></span> 
+</span> 
+ <span class="text" id="1117399833">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1341960649"> <div class="image-container" id="1962685573"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+21.27.45.png" id="1907029522"><img irh="" irw="" data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+21.27.45-1920w.png" id="1227909962" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container u_1675132573" style="display:none" id="1675132573"> <span class="caption-inner" id="1349974168"> <h3 class="caption-title u_1150408786" id="1150408786">Office And Home Renovations</h3> 
+ <div class="caption-text u_1058690524" id="1058690524"><p class="rteBlock">Full Home Or Office Renovations</p></div> <a class="caption-button dmWidget clearfix u_1359706186" id="1359706186"> <span class="iconBg" id="1920821095"> <span class="icon hasFontIcon icon-star" id="1571693270"></span> 
+</span> 
+ <span class="text" id="1556574219">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1852613043"> <div class="image-container" id="1539063254"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.18.58-d437990e.png" id="1642880466" class="u_1642880466"><img irh="" irw="" data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.18.58-d437990e-1920w.png" id="1361853180" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container u_1792509428" style="display:none" id="1792509428"> <span class="caption-inner" id="1426845702"> <h3 class="caption-title u_1609375781" id="1609375781">Kitchen Renovations</h3> 
+ <div class="caption-text u_1424199482" id="1424199482"><p class="rteBlock">Any Kitchen Renovations</p></div> <a class="caption-button dmWidget clearfix u_1486718541" id="1486718541"> <span class="iconBg" id="1161390696"> <span class="icon hasFontIcon icon-star" id="1308210793"></span> 
+</span> 
+ <span class="text" id="1895499614">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1197580831"> <div class="image-container" id="1507735833"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/WhatsApp+Image+2020-02-05+at+14.59.13.jpeg" id="1165962838"><img irh="" irw="" data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/WhatsApp+Image+2020-02-05+at+14.59.13-1920w.jpeg" id="1892819871" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container u_1474404136" style="display:none" id="1474404136"> <span class="caption-inner" id="1490129091"> <h3 class="caption-title u_1577068474" id="1577068474">Water proof and Damp Proofing</h3> 
+ <div class="caption-text u_1976069091" id="1976069091"><p class="rteBlock">Water and Damp Proofing Solutions</p></div> <a class="caption-button dmWidget clearfix u_1245615183" id="1245615183"> <span class="iconBg" id="1608967313"> <span class="icon hasFontIcon icon-star" id="1810546852"></span> 
+</span> 
+ <span class="text" id="1887650525">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1222449954"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1786639267 dmRespRow" style="text-align: center;" id="1786639267"> <div class="dmRespColsWrapper" id="1511994167"> <div class="dmRespCol small-12 u_1429301862 medium-4 large-4" id="1429301862"> <span id="1530077708"></span> 
+ <div class="u_1757581816 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1757581816" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1446073350" class="svg u_1446073350" data-icon-name="li_award"> <g id="1155070367"> <path d="M50,23.5c-11,0-19.9,8.9-19.9,19.9S39,63.3,50,63.3s19.9-8.9,19.9-19.9S61,23.5,50,23.5z M50,60.9
+		c-9.6,0-17.5-7.8-17.5-17.5C32.5,33.8,40.4,26,50,26s17.5,7.8,17.5,17.5C67.5,53.1,59.6,60.9,50,60.9z" id="1127891516"></path> 
+ <path d="M88.3,73.7L75.6,61l2.2-1.3V51l4.4-7.6l-4.4-7.6v-8.7l-7.6-4.4l-4.4-7.6h-8.7l-7.6-4.4L42,15.2h-8.7l-4.4,7.6l-7.6,4.4v8.7
+		L17,43.4l4.4,7.6v8.7l2.7,1.6L11.7,73.7c-0.4,0.4-0.5,0.9-0.3,1.4s0.6,0.8,1.2,0.8h11.2v11.2c0,0.5,0.3,1,0.8,1.2
+		c0.2,0.1,0.3,0.1,0.5,0.1c0.3,0,0.6-0.1,0.9-0.4l16.2-16.2l7.5,4.3l7.6-4.4h0.6L74.2,88c0.2,0.2,0.6,0.4,0.9,0.4
+		c0.2,0,0.3,0,0.5-0.1c0.5-0.2,0.8-0.6,0.8-1.2V75.8h11.2c0.5,0,1-0.3,1.2-0.8C88.7,74.6,88.6,74.1,88.3,73.7z M25.1,73.4h-9.5
+		l10.7-10.7l2.6,1.5l4.4,7.6h5.4L26.3,84.1v-9.5C26.3,73.9,25.8,73.4,25.1,73.4z M56.5,69.2l-6.9,4l-6.9-4h-8l-4-6.9l-6.9-4v-8
+		l-4-6.9l4-6.9v-8l6.9-4l4-6.9h8l6.9-4l6.9,4h8l4,6.9l6.9,4v8l4,6.9l-4,6.9v8l-6.9,4l-4,6.9H56.5z M74.9,73.4
+		c-0.7,0-1.2,0.6-1.2,1.2v9.5L61.3,71.7h4.6l4.4-7.6l3.1-1.8l11,11L74.9,73.4L74.9,73.4z" id="1850689036"></path> 
+</g> 
+</svg> 
+</div> 
+ <h4 class="u_1055582042 dmNewParagraph" id="1055582042" data-uialign="left" style="display: block;" data-element-type="paragraph"><div style="text-align: center;"><font color="#284053"><span style="font-size: 18px;"><b>Quality</b></span></font></div></h4> <div class="dmNewParagraph u_1378357246" data-dmtmpl="true" id="1378357246" data-uialign="left" style="transition: opacity 1s ease-in-out; display: block;"><div style="text-align: center;"><font color="#a9a9a9">You will be sure to see the quality in our end result.</font></div></div></div> 
+ <div class="dmRespCol small-12 u_1465024191 medium-4 large-4" id="1465024191"> <span id="1051574878"></span> 
+ <div class="u_1243970768 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1243970768" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1848972606" class="svg u_1848972606" data-icon-name="time_and_location_alarm_clock_"> <path d="M50,81.3A31.94,31.94,0,1,1,81.94,49.35,32,32,0,0,1,50,81.3Zm0-61.57A29.63,29.63,0,1,0,79.63,49.35,29.67,29.67,0,0,0,50,19.72Z" id="1813787088"></path> 
+ <path d="M77.44,36.19a1.15,1.15,0,0,1-.82-2,11,11,0,1,0-17.06-13.8,1.15,1.15,0,1,1-1.93-1.26A13.34,13.34,0,1,1,78.26,35.85,1.15,1.15,0,0,1,77.44,36.19Z" id="1017714602"></path> 
+ <path d="M22.68,36.31a1.15,1.15,0,0,1-.8-.33A13.34,13.34,0,1,1,42.23,19a1.15,1.15,0,0,1-1.91,1.29A11,11,0,1,0,23.48,34.33a1.15,1.15,0,0,1-.8,2Z" id="1762987762"></path> 
+ <path d="M50,74.07A24.72,24.72,0,1,1,74.72,49.35,24.74,24.74,0,0,1,50,74.07Zm0-47.12A22.41,22.41,0,1,0,72.41,49.35,22.43,22.43,0,0,0,50,26.95Z" id="1993733952"></path> 
+ <path d="M50,74.07A24.72,24.72,0,1,1,74.72,49.35,24.74,24.74,0,0,1,50,74.07Zm0-47.12A22.41,22.41,0,1,0,72.41,49.35,22.43,22.43,0,0,0,50,26.95Z" id="1409334351"></path> 
+ <path d="M50,51.52a2.17,2.17,0,1,1,2.17-2.17A2.17,2.17,0,0,1,50,51.52Zm0-2.31a.14.14,0,0,0-.14.14c0,.15.28.15.28,0A.14.14,0,0,0,50,49.22Z" id="1905925243"></path> 
+ <path d="M50,50.51a1.15,1.15,0,0,1-.89-.42L36.43,34.58a1.15,1.15,0,1,1,1.79-1.46l12.67,15.5A1.15,1.15,0,0,1,50,50.51Z" id="1909588211"></path> 
+ <path d="M50,50.51a1.15,1.15,0,0,1-.8-2l10.09-9.82a1.15,1.15,0,0,1,1.61,1.65L50.8,50.18A1.15,1.15,0,0,1,50,50.51Z" id="1889398805"></path> 
+ <path d="M50,31.38a1.15,1.15,0,0,1-1.15-1.15V25.79a1.15,1.15,0,1,1,2.31,0v4.43A1.15,1.15,0,0,1,50,31.38Z" id="1166567156"></path> 
+ <path d="M50,74.07a1.15,1.15,0,0,1-1.15-1.15V68.48a1.15,1.15,0,1,1,2.31,0v4.43A1.15,1.15,0,0,1,50,74.07Z" id="1505766361"></path> 
+ <path d="M73.56,50.51H69.13a1.15,1.15,0,0,1,0-2.31h4.43a1.15,1.15,0,0,1,0,2.31Z" id="1290302802"></path> 
+ <path d="M30.87,50.51H26.44a1.15,1.15,0,0,1,0-2.31h4.43a1.15,1.15,0,0,1,0,2.31Z" id="1391181842"></path> 
+ <path d="M69.27,86.92A2.54,2.54,0,0,1,67,85.49l-4-8.25a1.15,1.15,0,1,1,2.08-1l4,8.25a.25.25,0,0,0,.27.11l1.24-.46a.25.25,0,0,0,.13-.25L68,73.77a1.15,1.15,0,0,1,2.23-.59L72.93,83.3a2.54,2.54,0,0,1-1.56,3l-1.24.46A2.47,2.47,0,0,1,69.27,86.92Z" id="1778372591"></path> 
+ <path d="M30.73,86.92a2.47,2.47,0,0,1-.86-.15l-1.24-.46a2.54,2.54,0,0,1-1.57-3l2.68-10.12a1.15,1.15,0,1,1,2.23.59L29.3,83.89a.25.25,0,0,0,.13.25l1.24.46a.25.25,0,0,0,.27-.11l4-8.25a1.15,1.15,0,0,1,2.08,1l-4,8.25A2.54,2.54,0,0,1,30.73,86.92Z" id="1354471075"></path> 
+</svg> 
+</div> 
+ <h4 class="u_1589206541 dmNewParagraph" id="1589206541" data-uialign="center" style="display: block;" data-element-type="paragraph"><div style="text-align: center;"><font color="#284053"><span class="lh-1 font-size-18"><span style="font-weight: 700;">Integrity</span></span></font></div></h4> <div class="dmNewParagraph u_1547874158" data-dmtmpl="true" id="1547874158" data-uialign="center" style="transition: opacity 1s ease-in-out; display: block;"><div style="text-align: center;"><font color="#a9a9a9">We make sure to finish in time.</font></div></div></div> 
+ <div class="dmRespCol small-12 u_1818869677 medium-4 large-4" id="1818869677"> <span id="1130569214"></span> 
+ <div class="graphicWidget u_1006492189" editablewidget="true" data-widget-type="graphic" id="1006492189" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1534622128" class="svg u_1534622128" data-icon-name="payment_cash_calculator"> <path d="M40.31,58.51l1.63.76a12.43,12.43,0,0,1,2.22,1.22,2.78,2.78,0,0,1,.77,1.07,3.84,3.84,0,0,1,.28,1.52,2.89,2.89,0,0,1-1,2.25,3.72,3.72,0,0,1-2.59.88,9.16,9.16,0,0,1-2.15-.27,12.35,12.35,0,0,1-1.93-.58l0,2.55a7.66,7.66,0,0,0,1.38.46,8.41,8.41,0,0,0,1.65.29V70.8h2.66V68.46a5.48,5.48,0,0,0,3.4-1.73A4.64,4.64,0,0,0,48,63.44a6.48,6.48,0,0,0-1-3.73,7.56,7.56,0,0,0-3.14-2.46l-1.27-.59a11.59,11.59,0,0,1-2.09-1.18,3,3,0,0,1-.83-1.07A3.35,3.35,0,0,1,39.36,53a2.77,2.77,0,0,1,.81-2.05,3,3,0,0,1,2.21-.8,6.72,6.72,0,0,1,2.09.37,6.32,6.32,0,0,1,1.68.77V48.72a6.2,6.2,0,0,0-3-.84V45.71H40.58l0,2.31a5.15,5.15,0,0,0-2.75,1.68A5,5,0,0,0,36.61,53a5.92,5.92,0,0,0,.82,3.18A6.49,6.49,0,0,0,40.31,58.51Z" id="1249732826"></path> 
+ <path d="M42.29,86c9.27,0,13.3-.18,13.54-.19h31.7V41.44H62.42l-7-9.36a2.61,2.61,0,0,0,1.7-2.44V28.45A2.62,2.62,0,0,0,55,25.88l6.88-6.66L58.5,15.8a6.23,6.23,0,0,0-8.8,0l-1.62,1.62-.36-.36a7.49,7.49,0,0,0-10.58,0l-.36.36L35.16,15.8a6.23,6.23,0,0,0-8.8,0l-3.42,3.42,6.85,6.64a2.61,2.61,0,0,0-2.35,2.59v1.19a2.61,2.61,0,0,0,1.7,2.44L18.47,46.41a29.81,29.81,0,0,0-6,17.68C12.49,74.1,17.69,86,42.29,86Zm43.46-2H56.7V43.21H85.76Zm-58.15-67a4.45,4.45,0,0,1,6.3,0l2.87,2.87,1.61-1.61a5.71,5.71,0,0,1,8.07,0l1.61,1.61,2.87-2.87a4.45,4.45,0,0,1,6.3,0l2.14,2.14-6.84,6.63H32.31L25.46,19.2ZM30,30.48a.84.84,0,0,1-.84-.84V28.45a.84.84,0,0,1,.84-.84H54.54a.84.84,0,0,1,.84.84v1.19a.84.84,0,0,1-.84.84H30Zm-10.15,17L31.21,32.26H53.38l6.83,9.18H54.92V84.09c-1.61.05-5.6.16-12.63.16-18.32,0-28-7-28-20.16A28,28,0,0,1,19.9,47.47Z" id="1465626998"></path> 
+ <path d="M83.2,45.77h-24v6.66h24Zm-1.77,4.88H61V47.54H81.43Z" id="1879554691"></path> 
+ <path d="M70.77,81.22a.79.79,0,0,0,.92,0H76.1a.87.87,0,0,0,1.3,0h5.8v-23h-24v23Zm5.1-16.07v3.75H72.11V65.16Zm-3.75-1.77V60h3.75v3.39Zm0,11V70.68h3.75v3.75Zm3.75,1.77v3.25H72.11V76.2Zm1.77-5.52h3.79v3.75H77.64Zm3.79-1.77H77.64V65.16h3.79Zm-11.09,0H66.59V65.16h3.75Zm-5.52,0H61V65.16h3.79ZM61,70.68h3.79v3.75H61Zm5.57,0h3.75v3.75H66.59Zm3.75,5.52v3.25H66.59V76.2Zm7.3,3.25V76.2h3.79v3.25Zm3.79-16.07H77.64V60h3.79ZM70.34,60v3.39H61V60ZM61,76.2h3.79v3.25H61Z" id="1650852833"></path> 
+</svg> 
+</div> 
+ <h4 class="u_1887863314 dmNewParagraph" id="1887863314" data-uialign="center" style="display: block;" data-element-type="paragraph"><div style="text-align: center;"><font color="#284053"><span class="lh-1 font-size-18"><span style="font-weight: 700;">Affordability</span></span></font></div></h4> <div class="dmNewParagraph u_1181497159" data-dmtmpl="true" id="1181497159" data-uialign="center" style="transition: opacity 1s ease-in-out; display: block;"><div style="text-align: center;"><font color="#a9a9a9">You get what you pay for.&nbsp; Not only affordable but best value for money.&nbsp;&nbsp;</font></div></div></div> 
+</div> 
+</div> 
+ <div class="u_1771437952 dmRespRow dmSectionParallaxNew hasBackgroundOverlay" style="text-align: center;" id="1771437952" data-anim-desktop="none"> <div class="dmRespColsWrapper" id="1151464060"> <div class="u_1375431759 dmRespCol small-12 medium-12 large-12" id="1375431759" data-anim-desktop="fadeInUp"> <span id="1613909608"></span> 
+ <h3 class="u_1287186695 dmNewParagraph" id="1287186695" data-uialign="center" style="transition: none;" data-element-type="paragraph"><div><b></b></div><span style=""><div style="text-align: center; "><font color="#ffffff">Let us be your choice of improvement!</font></div></span><b></b><div></div></h3> <h5 class="u_1835189434 dmNewParagraph" data-element-type="paragraph" id="1835189434" data-uialign="center" style="transition: opacity 1s ease-in-out;"><div style="text-align: center;"><font color="#ffffff">Call us at +27 (0) 82 041 1515.(Call/WhatsApp)</font></div></h5> <div class="u_1262563010 widget-5bd886 dmCustomWidget" data-lazy-load="" id="1262563010" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="5bd886efb15a44fd98f083f461519ec8" data-widget-version="186" data-widget-config="eyJ3YU51bWJlciI6IisyNzgyMDQxMTUxNSIsImJ0blRleHQiOiIgV2hhdHNBcHAgdXMiLCJkZWZhdWx0TWVzc2FnZSI6IiIsImFsdCI6Ik1lc3NhZ2UgdXMgb24gV2hhdHNBcHAiLCJ3YUxheW91dCI6ImJ0bldpdGhJY29uIn0="> <a data-display-type="block" class="dmWidget wa-btns default align-center full" target="_blank" data-buttonstyle="FLAT_ROUND_ICON"> <span class="iconBg"> <span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewbox="-5 -5 39 38"> <g class="whatsapp-fill" fill-rule="nonzero"> <path d="M10.743 8.158c-.259-.571-.531-.583-.777-.593-.202-.008-.432-.008-.663-.008-.23 0-.604.086-.921.43-.317.342-1.21 1.171-1.21 2.857 0 1.686 1.239 3.316 1.411 3.544.173.229 2.391 3.8 5.903 5.173 2.92 1.142 3.513.915 4.147.857.634-.057 2.044-.828 2.332-1.629.288-.8.288-1.486.202-1.629-.086-.143-.317-.228-.662-.4-.346-.171-2.045-1-2.362-1.115-.316-.114-.547-.17-.777.172-.23.343-.892 1.115-1.094 1.343-.202.23-.403.258-.749.086-.345-.172-1.458-.533-2.779-1.7-1.027-.909-1.72-2.03-1.922-2.374-.202-.342-.022-.528.152-.699.155-.153.345-.4.518-.6.172-.2.23-.343.345-.571.115-.23.058-.43-.029-.6-.086-.172-.758-1.867-1.065-2.544z"></path> 
+ <path d="M14.347 25.116h-.004a11.554 11.554 0 0 1-5.85-1.589l-.42-.247-4.351 1.132 1.161-4.205-.273-.432a11.296 11.296 0 0 1-1.758-6.064c.003-6.283 5.16-11.395 11.5-11.395a11.469 11.469 0 0 1 8.126 3.342 11.279 11.279 0 0 1 3.364 8.062c-.003 6.284-5.16 11.396-11.495 11.396M24.13 4.021A13.802 13.802 0 0 0 14.347 0C6.724 0 .52 6.15.517 13.71c0 2.416.636 4.775 1.846 6.854L.401 27.67l7.332-1.906a13.912 13.912 0 0 0 6.608 1.669h.006c7.622 0 13.827-6.152 13.83-13.711a13.57 13.57 0 0 0-4.047-9.7"></path> 
+</g> 
+</svg> 
+</span> 
+</span> 
+ <span class="text">WhatsApp us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1884254546 dmRespRow" style="text-align: center;" id="1884254546"> <div class="dmRespColsWrapper" id="1825396919"> <div class="u_1679971431 dmRespCol small-12 medium-6 large-6" id="1679971431" data-anim-desktop="fadeInLeft"> <h3 class="u_1949064847 dmNewParagraph" data-element-type="paragraph" id="1949064847" data-uialign="left" style="transition: opacity 1s ease-in-out;"><font color="#313131"><b>We Modernise houses</b></font></h3> <div class="u_1860885212 dmNewParagraph" data-dmtmpl="true" id="1860885212" data-uialign="left" style="transition: none; display: block;"><div><font style="color: rgb(49, 49, 49);" class="font-size-16 lh-1 m-specific m-font-size-14"><b></b></font></div><div style=""><font style="color: rgb(49, 49, 49);" class="font-size-16 lh-1 m-specific m-font-size-14"></font></div><span style="font-size: 16px;"><div style=""><font style="color: rgb(49, 49, 49);"><span style="font-weight: 400;">We are</span> 
+<span style=""><span style="text-decoration-line: underline;"><span style="font-weight: bold;">BIG</span>&nbsp;</span>on:</span></font></div><div style="">Revamping</div><div style="">Remodelling</div><div style="">Restoration of Houses</div></span><div style=""><font style="color: rgb(49, 49, 49);" class="font-size-16 lh-1 m-specific m-font-size-14"></font></div><div><font style="color: rgb(49, 49, 49);" class="font-size-16 lh-1 m-specific m-font-size-14"><b></b></font></div></div></div> 
+ <div class="dmRespCol small-12 medium-6 large-6 u_1320061485" id="1320061485"> <div data-element-type="dYouTubeId" class="youtubeExt dmNoMark youtube-padding-fix" id="1370063492"> <div class="innerYoutubeExt" id="1509508551"> <iframe id="1391556486" src="https://www.youtube.com/embed/S8X7RQCt3Hs" frameborder="0" allowfullscreen=""></iframe> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1507403387"> <div class="dmRespColsWrapper" id="1749594031"> <div class="dmRespCol large-12 medium-12 small-12" id="1000090031"> <h2 class="u_1031082673 dmNewParagraph" data-element-type="paragraph" id="1031082673" data-uialign="center" style="transition: none 0s ease 0s; display: block;"><font color="#000000"><span style="font-size: 36px;">TESTIMONIALS AND GOOGLE REVIEWS</span></font></h2></div> 
+</div> 
+</div> 
+ <div class="u_1403041371 dmRespRow" style="text-align: center;" id="1403041371" data-anim-desktop="fadeInUp"> <div class="dmRespColsWrapper" id="1952905487"> <div class="dmRespCol small-12 u_1407593355 medium-4 large-4" id="1407593355"> <div class="u_1230355601 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1230355601" data-element-type="image"><img src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1488761699860-5ab59b41ca1e-216w.jpg" id="1020014206" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1488761699860-5ab59b41ca1e.jpg" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1195544373 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1195544373" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" id="1273962298" class="svg u_1273962298" data-icon-custom="true" data-icon-name="Quote.svg"> <path d="M5.2,42.7c1.3,8.7,8.7,14.9,17.1,15.3c-2.1,7.8-7.2,10.9-13.4,12.7c-0.6,0.2-0.5,0.8-0.5,0.8l1,6.2c0,0,0.1,0.5,0.9,0.4  c21.4-2.4,35.9-18.7,33.2-38.5C41,25.9,30.3,20.6,20.4,22C10.5,23.6,3.7,32.8,5.2,42.7L5.2,42.7z M73.5,58  c-2,7.8-7.3,10.9-13.4,12.7c-0.6,0.2-0.5,0.8-0.5,0.8l0.9,6.2c0,0,0.1,0.5,0.9,0.4c21.5-2.4,35.8-18.7,33.3-38.5  C92.1,25.9,81.3,20.6,71.5,22c-9.9,1.6-16.7,10.8-15.1,20.7C57.7,51.5,65,57.7,73.5,58z" id="1458435578"></path> 
+</svg> 
+</div> 
+ <div class="u_1536575821 dmNewParagraph" data-dmtmpl="true" id="1536575821" data-uialign="center" style="transition: opacity 1s ease-in-out; display: block; direction: ltr; text-align: left;"><div style="text-align: center;">Thank you so much for the wonderful renovations to my house. Your company came highly recommended to me by a friend and you met all my expectations.&nbsp;</div></div> <h4 class="u_1375723090 dmNewParagraph" data-element-type="paragraph" id="1375723090" data-uialign="center" style="text-align: center; transition: opacity 1s ease-in-out;">Sue McCathy</h4></div> 
+ <div class="dmRespCol small-12 u_1600066807 medium-4 large-4" id="1600066807"> <div class="u_1218753642 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1218753642" data-element-type="image"><img src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1495603889488-42d1d66e5523-216w.jpg" id="1974881427" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1495603889488-42d1d66e5523.jpg" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1115093569 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1115093569" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" id="1213414217" class="svg u_1213414217" data-icon-custom="true" data-icon-name="Quote.svg"> <path d="M5.2,42.7c1.3,8.7,8.7,14.9,17.1,15.3c-2.1,7.8-7.2,10.9-13.4,12.7c-0.6,0.2-0.5,0.8-0.5,0.8l1,6.2c0,0,0.1,0.5,0.9,0.4  c21.4-2.4,35.9-18.7,33.2-38.5C41,25.9,30.3,20.6,20.4,22C10.5,23.6,3.7,32.8,5.2,42.7L5.2,42.7z M73.5,58  c-2,7.8-7.3,10.9-13.4,12.7c-0.6,0.2-0.5,0.8-0.5,0.8l0.9,6.2c0,0,0.1,0.5,0.9,0.4c21.5-2.4,35.8-18.7,33.3-38.5  C92.1,25.9,81.3,20.6,71.5,22c-9.9,1.6-16.7,10.8-15.1,20.7C57.7,51.5,65,57.7,73.5,58z" id="1943973375"></path> 
+</svg> 
+</div> 
+ <div class="u_1574450866 dmNewParagraph" data-dmtmpl="true" id="1574450866" data-uialign="center" style="transition: opacity 1s ease-in-out; display: block; direction: ltr; text-align: left;"><div style="text-align: center;">We would recommend Hands At Work to anyone who wants to renovate or build a new home. The staff in this organisation are all very courteous and respectful. If something wasn't quite right or to our pleasing, they repaired or replaced to our satisfaction. We were VERY pleased with our completed renovation but also a little sad, as we had a wonderful working relationship with the skilled craftsmen who came to our home.</div></div> <h4 class="u_1445810700 dmNewParagraph" data-element-type="paragraph" id="1445810700" data-uialign="center" style="text-align: center; transition: opacity 1s ease-in-out;">Vuyo Nkobo</h4></div> 
+ <div class="dmRespCol small-12 u_1640632165 medium-4 large-4" id="1640632165"> <div class="u_1074561296 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1074561296" data-element-type="image"><img src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1471015060382-6cbd8b4e34d0-218w.jpg" id="1586141041" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1471015060382-6cbd8b4e34d0.jpg" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1521004955 graphicWidget" editablewidget="true" data-widget-type="graphic" id="1521004955" data-element-type="graphic"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" id="1305530698" class="svg u_1305530698" data-icon-custom="true" data-icon-name="Quote.svg"> <path d="M5.2,42.7c1.3,8.7,8.7,14.9,17.1,15.3c-2.1,7.8-7.2,10.9-13.4,12.7c-0.6,0.2-0.5,0.8-0.5,0.8l1,6.2c0,0,0.1,0.5,0.9,0.4  c21.4-2.4,35.9-18.7,33.2-38.5C41,25.9,30.3,20.6,20.4,22C10.5,23.6,3.7,32.8,5.2,42.7L5.2,42.7z M73.5,58  c-2,7.8-7.3,10.9-13.4,12.7c-0.6,0.2-0.5,0.8-0.5,0.8l0.9,6.2c0,0,0.1,0.5,0.9,0.4c21.5-2.4,35.8-18.7,33.3-38.5  C92.1,25.9,81.3,20.6,71.5,22c-9.9,1.6-16.7,10.8-15.1,20.7C57.7,51.5,65,57.7,73.5,58z" id="1507381575"></path> 
+</svg> 
+</div> 
+ <div class="u_1948534611 dmNewParagraph" data-dmtmpl="true" id="1948534611" data-uialign="center" style="transition: opacity 1s ease-in-out; display: block; direction: ltr; text-align: left;"><div style="text-align: center;">YOU GET WHAT YOU PAY FOR!!!</div><div style="text-align: center;"><br/></div><div style="text-align: center;">How's that for an opening statement?!</div><div style="text-align: center;"><br/></div><div style="text-align: center;">And we got exactly what we paid for, a beautiful renovated basement of our dreams.</div></div> <h4 class="u_1958052392 dmNewParagraph" data-element-type="paragraph" id="1958052392" data-uialign="center" style="text-align: center; transition: opacity 1s ease-in-out;">Pieter Jantjies</h4></div> 
+</div> 
+</div> 
+ <div class="u_1398258821 dmRespRow" style="text-align: center;" id="1398258821"> <div class="dmRespColsWrapper" id="1026225495"> <div class="dmRespCol small-12 medium-12 large-12 u_1380879359" id="1380879359"> <div class="imageWidget align-center u_1895416690" editablewidget="true" data-element-type="image" data-widget-type="image" id="1895416690"> <a id="1601223573"><img src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-09-12+at+20.45.08-960w.png" alt="" id="1468380437" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-09-12+at+20.45.08.png" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1959194272"> <div class="dmRespColsWrapper" id="1134193531"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1500625889"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer hasBackgroundOverlay"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1632155419 dmRespRow" style="text-align: center;" id="1632155419"> <div class="dmRespColsWrapper" id="1253858808"> <div class="u_1553864455 dmRespCol small-12 medium-4 large-4" id="1553864455"> <nav class="u_1971045927 unifiednav_vertical effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1971045927" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="false"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_00  " target="" data-target-page-alias="" data-auto&#x3d;selected-page=""> <span class="nav-item-text " data-link-text="
+                  
+         Home
+        
+                " data-auto&#x3d;page-text-style="">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="about-us.html" class="unifiednav__item  dmUDNavigationItem_010101325370  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         About Us
+        
+                " data-auto&#x3d;page-text-style="">About Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="Services.html" class="unifiednav__item  dmUDNavigationItem_010101298332  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Services
+        
+                " data-auto&#x3d;page-text-style="">Services<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="Contact.html" class="unifiednav__item  dmUDNavigationItem_010101960562  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Contact
+        
+                " data-auto&#x3d;page-text-style="">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="systemadmin.html" class="unifiednav__item  dmUDNavigationItem_010101342348  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         SystemAdmin
+        
+                " data-auto&#x3d;page-text-style="">SystemAdmin<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1332161287 dmRespCol small-12 medium-4 large-4" id="1332161287"> <h6 class="u_1299492659 dmNewParagraph" data-element-type="paragraph" id="1299492659" style="transition: opacity 1s ease-in-out;" data-uialign="center"><div style="text-align: left;"><span style="font-weight: 600;"><font style="color: rgb(255, 255, 255);">Contact</font></span></div></h6> <h6 class="u_1521574249 dmNewParagraph" data-element-type="paragraph" id="1521574249" data-uialign="center" style="transition: none; display: block;"><div><span style=""><font style="color: rgb(234, 234, 234);"></font></span></div><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);"><div style="text-align: left;"><br/></div><div style="text-align: left;">Mobile: +27 82 041 1515</div><div style="text-align: left;">info.handsatwork@gmail.com</div></font></span><span style=""><font style="color: rgb(234, 234, 234);"><div style=""><span style=""></span></div></font></span><div><span style="color: rgb(234, 234, 234);"></span></div></h6> <h6 class="u_1544536735 dmNewParagraph" data-element-type="paragraph" id="1544536735" data-uialign="center" style="transition: none; display: block;"><div><span style=""><font style="color: rgb(234, 234, 234);"></font></span></div><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);"><div style="text-align: left;">6280 Sau Tome Crescent, Cosmo City</div><div style="text-align: left;">Randburg, Gauteng</div><div style="text-align: left;">South Africa</div></font></span><span style=""><font style="color: rgb(234, 234, 234);"><div style=""><span style=""></span></div></font></span><div><span style="color: rgb(234, 234, 234);"></span></div></h6> <div class="u_1184618318 imageWidget align-center" editablewidget="true" data-element-type="image" data-widget-type="image" id="1184618318"> <a id="1197615394"><img src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-17+at+09.52.01-390w.png" id="1828193756" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-17+at+09.52.01.png" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1793378685 dmRespCol small-12 medium-4 large-4" id="1793378685"> <a data-display-type="block" class="u_1005493799 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="tel:+27 82 041 1515" id="1005493799" data-element-type="dButtonLinkId" dm_dont_rewrite_url="false"> <span class="iconBg" id="1445260480"> <span class="icon hasFontIcon icon-star" id="1828275411"></span> 
+</span> 
+ <span class="text" id="1031194968">Call Us Now</span> 
+</a> 
+ <div class="u_1970798802 align-center text-align-center dmSocialHub" id="1970798802" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="mailto:info.handsatwork@gmail.com" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.facebook.com/HandsAtWorkJhb/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+ <a href="http://instagram.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1194169475"> <div class="dmRespColsWrapper" id="1036872869"> <div class="dmRespCol large-12 medium-12 small-12" id="1724919379"> <div class="widget-1f5975 dmCustomWidget" data-lazy-load="" id="1580488499" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPjxzcGFuIHN0eWxlPVwiY29sb3I6cmdiYSgyMzksIDIzOSwgMjM5LCAxKVwiPkFsbCBSaWdodHMgUmVzZXJ2ZWQgfCBEZXNpZ25lZCBiecKgIFByaW50d2FyZSBDb21wdXRlcnMgKzI3ICgwKSA4MiA0MTkgNjYwNjwvc3Bhbj48L3A+In0="> <div class="copyright"> <div>&copy; 2020&nbsp;</div> 
+ <div> <p class="rteBlock"> <span style="color:rgba(239, 239, 239, 1)">All Rights Reserved | Designed by&nbsp; Printware Computers +27 (0) 82 419 6606</span> 
+</p> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false" data-dmtmpl="true"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+            </div>
+        </div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CMontserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CPoppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CMerriweather:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CSource+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext&amp;display=swap"  as="style" onload="loadCSS(this)" />
+
+
+<link rel="preload" as="style" onload="loadCSS(this)" href="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/css/css-font-package-v2.min.css" />
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
+<link rel="preload" as="style" onload="loadCSS(this)" href="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css" />
+
+<!-- End of RT CSS Include -->
+
+
+
+    
+       <link rel="preload" href="https://irp-cdn.multiscreensite.com/WIDGET_CSS/production_1473/b4be12e7b07b21bda921ac30da897b52.css" id="widgetCSS" as="style" onload="loadCSS(this)" />
+    
+
+
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link rel="preload" href="https://irp-cdn.multiscreensite.com/ec6ff8e2/files/ec6ff8e2_1.min.css?v=142" id="siteGlobalCss" as="style" onload="loadCSS(this)" />
+
+
+<style id="customWidgetStyle" type="text/css">.widget-5bd886 .full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.widget-5bd886 .iconBg {
+   display: block !important;
+   width: 100px;
+}
+
+.widget-5bd886 < .iconBg {
+   width: 66px;
+}
+
+.widget-5bd886 .whatsapp-fill { /* default color */
+   fill: currentColor;
+}
+
+.widget-5bd886 .wa-btn-transparent {
+    background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.widget-5bd886 a {
+    padding: 0 !important;
+}
+
+.widget-5bd886 .green-wa {
+    flex: 1;
+    height: 80%;
+}
+
+.widget-5bd886 .green-wa img {
+    height: 100%;
+}
+
+.widget-5bd886 .wa-btns {
+    margin: 0 !important;
+}
+
+.widget-5bd886 .flex-text {
+    flex: 3;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-align: left;
+}
+    
+    .widget-5bd886 {
+    /*overflow: hidden;*/
+    margin: 10px auto;
+    width: 278px;
+}
+    
+    .widget-1f5975 .copyright {
+    font-size: 13px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+
+<!-- Page CSS -->
+<link rel="preload" href="https://irp-cdn.multiscreensite.com/ec6ff8e2/files/ec6ff8e2_home_1.min.css?v=142" id="homeCssLink" as="style" onload="loadCSS(this)" />
+
+<style id="pagestyle" type="text/css">
+    
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    
+</style>
+
+
+
+
+<!--[if IE 7]><style>.fw-head.fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}</style><![endif]-->
+<!--[if IE 8]><style>.fw-head .fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}*#dm div.dmHeader{_height:90px;min-height:0px;}</style><![endif]-->
+
+
+
+    <style id="globalFontSizeStyle" type="text/css">.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-40, .size-40, .size-40 > font { font-size: 40px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }
+    </style>
+    <style id="pageFontSizeStyle" type="text/css">
+    </style>
+
+
+<!-- Flex Sections CSS -->
+<!-- ========= JS Section ========= -->
+
+<!-- Modernizr -->
+<script>
+    /* THIS FILE IS AUTO-GENERATED. SEE build/build-modernizr */
+
+/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-passiveeventlisteners-supports-setclasses-cssclassprefix:dm- !*/
+!function(e,n,s){function o(e,n){return typeof e===n}function t(){var e,n,s,t,a,r,l;for(var c in i)if(i.hasOwnProperty(c)){if(e=[],n=i[c],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)r=e[a],l=r.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),f.push((t?"":"no-")+l.join("-"))}}function a(e){var n=l.className,s=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");n=n.replace(o,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(n+=" "+s+e.join(" "+s),c?l.className.baseVal=n:l.className=n)}var i=[],r={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){i.push({name:e,fn:n,options:s})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=r,Modernizr=new Modernizr;var f=[],l=n.documentElement,c="svg"===l.nodeName.toLowerCase(),u="CSS"in e&&"supports"in e.CSS,p="supportsCSS"in e;Modernizr.addTest("supports",u||p),Modernizr.addTest("passiveeventlisteners",function(){var n=!1;try{var s=Object.defineProperty({},"passive",{get:function(){n=!0}});e.addEventListener("test",null,s)}catch(o){}return n}),t(),a(f),delete r.addTest,delete r.addAsyncTest;for(var d=0;d<Modernizr._q.length;d++)Modernizr._q[d]();e.Modernizr=Modernizr}(window,document);
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    
+    window.collections = {};
+    </script>
+<script>
+    window.customWidgetsFunctions["5bd886efb15a44fd98f083f461519ec8~186"] = function (element, data, api) {
+        
+$(element).find('a').each(function() {
+    var href = buildNewHref(cleanPhoneText(data.config.waNumber), cleanAndEncodeText(data.config.defaultMessage));
+    $(this).attr('href', href);
+    function clickHandler() {
+       window.dmsnowplow && window.dmsnowplow("Whatsapp", "Message", element, data.siteId)
+    }
+    element.off('click', clickHandler).on('click', clickHandler);
+})
+
+function cleanPhoneText(phone) {
+    return phone ? phone.replace(/[^0-9]/g, '') : "";
+}
+
+function cleanAndEncodeText(text) {
+    var returnString="";
+    if (text) {
+        returnString = text.replace(/<br>/g, '\n');
+        returnString = encodeURIComponent(returnString);
+    }
+    return returnString;
+}
+
+function buildNewHref (phone, text) {
+    var href;
+    if (data.inEditor) {
+        //editor is on touch device
+        if (window.isMobileDevice || window.parent.isTouchDevice) {
+            href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+        }
+        //etitor on desktop
+        else {
+            href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+        }
+    }
+    // not in editor - runtime
+    else {
+         if (data.device === "desktop") {
+             href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+         }
+         //on touch device
+         else {
+             href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+         }
+    }
+    return href;
+}
+
+    };
+</script>
+<script>
+                window.collections = JSON.parse(decodeURIComponent(escape(atob("e30="))));
+</script>
+
+
+
+<script type="text/javascript">
+
+    var version = "5.9.1";
+    var build = "2020-10-29T08_19_00";
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2020-10-29T08_19_00";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" src="https://static-cdn.multiscreensite.com/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery --><script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<script>
+    var shouldMonitorImages =  false;
+    if(shouldMonitorImages) {
+        window.addEventListener('error', function(event) {
+            if(event.target && event.target.tagName === 'IMG' && event.target.src && event.target.src.includes && event.target.src.includes('multiscreensite.com')) {
+                if (!window.fetch){
+                    return;
+                }
+                try {
+                    return fetch('/_dm/s/rt/actions/log/WARN', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ data: {
+                                type: 'image failed to load',
+                                eventType: event.type,
+                                image: event.target.src,
+                                href: window.location.href
+                            } })
+                    });
+                } catch (error) {
+                    console.log(error);
+                }
+
+            }
+        }, { capture: true });
+    }
+
+</script>
+<!-- HEAD RT JS Include -->
+<script>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["facebook.accessToken"] = '126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["feature.flag.contactUsNewForm"] = 'true';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"]=true;
+    rtCommonProps["common.build.dist.folder"]='production/1473';
+    rtCommonProps["common.resources.cdn.host"]='https://static-cdn.multiscreensite.com';
+    rtCommonProps["common.resources.folder"]='https://static-cdn.multiscreensite.com/mnlt/production/1473';
+    rtCommonProps["import.images.storage.useImageCDN"]=true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.animations.allowInMobile"]=true;
+    rtCommonProps["feature.flag.videoRefresh.refactor"]=true;
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['editor.infra.noPrefixedChanges'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.mark.anchors']= true;
+    rtCommonProps['feature.flag.runtime.miniheader.chromefix'] = false;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"]=160;
+    rtCommonProps["images.sizes.mobile"]=640;
+    rtCommonProps["images.sizes.tablet"]=1280;
+    rtCommonProps["images.sizes.desktop"]=1920;
+    rtCommonProps["modules.resources.cdn"]=true;
+    rtCommonProps["import.images.storage.imageCDN"]='https://lirp-cdn.multiscreensite.com/';
+    rtCommonProps["facebook.api.version"]='7.0';
+    rtCommonProps["custom.widget.new.runtime.enabled"]=true;
+
+</script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/scripts/d-js-runtime-one-package.min.js" ></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-package.min.js" ></script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-desktop.min.js" ></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  <script type="text/javascript" id="d_track_ga">
+
+  _dm_gaq.siteAlias = 'ec6ff8e2';
+  _dm_gaq.systemAggregatedGaqID = 'UA-7265702-9';
+  _dm_gaq.externalGaqID = 'UA-167593973-1';
+  
+  _gaq.push(['_gat._forceSSL']);
+  
+  _gaq.push (['_gat._anonymizeIp']);
+  
+
+  if(_dm_gaq.systemAggregatedGaqID && (_dm_gaq.systemAggregatedGaqID != _dm_gaq.systemGaqID)){
+     // track aggregated account
+    _gaq.push(['b._setAccount', _dm_gaq.systemAggregatedGaqID]);
+    _gaq.push(['b._setAllowLinker', true]);
+    _gaq.push(['b._setVar', _dm_gaq.siteAlias]);
+    _gaq.push(['b._setCustomVar', 1, 'product', 'DM_DIRECT',  2 ]);
+    _gaq.push(['b._setCustomVar', 2, 'plan', 'BUSINESS_PLUS',  2 ]);
+    _gaq.push(['b._setCustomVar', 3, 'dfooter', 'false',  2 ]);
+    _gaq.push(['b._setCustomVar', 4, 'sitetype', '1',  2 ]);
+    _gaq.push(['b._setCustomVar', 5, 'pwaEnabled', 'true',  2 ]);
+
+      _gaq.push(['b._trackPageview' ]);
+    pushInsiteImpressions('b._trackEvent');
+   }
+
+   if(_dm_gaq.externalGaqID && _dm_gaq.externalGaqID!= '') {
+     _gaq.push(['c._setAccount', _dm_gaq.externalGaqID]);
+     _gaq.push(['c._setVar', _dm_gaq.siteAlias]);
+     _gaq.push(['c._setDomainName', 'handsatwork.co.za']);
+     _gaq.push(['c._setAllowLinker', true]);
+     _gaq.push(['c._trackPageview' ]);
+
+     pushInsiteImpressions('c._trackEvent');
+   }
+
+   function pushInsiteImpressions(category) {
+   	$.each(_dm_insite, function(idx, rule) {
+   		_gaq.push([ category, 'insite_impression' , _dm_gaq.siteAlias, rule.ruleType + '__' + rule.ruleId, ]);
+   	});
+   }
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+  
+	ga.src = 'https://ssl.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+
+  </script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'ec6ff8e2'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: ec6ff8e2 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+
+<script>
+
+    jQuery(window).load(function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+        ;
+    });
+</script>
+<script>
+    dmAPI.loadScript(window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js', function () {
+        dmAPI.runOnReady('lozadInit', function () {
+            window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                img.addEventListener('load', function (event) {
+                    var img = event.target;
+                    img.style.filter = 'blur(0)';
+                    setTimeout(function () {
+                        $(img).closest('.imageWidget').addClass('lazyLoaded');
+                    }, 250)
+                });
+            });
+            lozad('.lazy', {
+                threshold: 0.1,
+                loaded: function (element) {
+                    if (element.getAttribute('data-background-image')) {
+                        element.style.setProperty(
+                            'background-image',
+                            "url('" + element.getAttribute('data-background-image') + "')",
+                            "important"
+                        );
+                    }
+                }
+            }).observe();
+        });
+    });
+</script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+            <!--  Site Wide Html Markup -->
+</body>
+</html>

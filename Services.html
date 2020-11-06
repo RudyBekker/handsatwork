@@ -1,0 +1,3064 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'https://www.handsatwork.co.za/',
+        AccountUUID: '6850ac2082cd460ea9f85369fb846cf9',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: 'ec6ff8e2',
+        SiteId: '1690845',
+        SiteType: atob('RFVEQU9ORQ=='),
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        InitialPageAlias: 'Services',
+        InitialEncodedPageAlias: 'U2VydmljZXM=',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: true,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '1720',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID : null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        LayoutParams : {
+            _navigationAnimationStyle: 'slide',
+            _manifestId : 10600,
+            _device : 'desktop'
+        },
+        StorePageAlias: 'null',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        NotificationSubDomain: 'handsatwork',
+        HasCustomDomain: true,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'LEFT',
+        currentLanguage: 'en',
+        NavItems: 'W3sidGl0bGUiOiJIb21lIiwiYWxpYXMiOiJob21lIiwicGF0aCI6Ii8iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJBYm91dCBVcyIsImFsaWFzIjoiYWJvdXQtdXMiLCJwYXRoIjoiL2Fib3V0LXVzIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiU2VydmljZXMiLCJhbGlhcyI6IlNlcnZpY2VzIiwicGF0aCI6Ii9TZXJ2aWNlcyIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6IkNvbnRhY3QiLCJhbGlhcyI6IkNvbnRhY3QiLCJwYXRoIjoiL0NvbnRhY3QiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJTeXN0ZW1BZG1pbiIsImFsaWFzIjoic3lzdGVtYWRtaW4iLCJwYXRoIjoiL3N5c3RlbWFkbWluIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfV0=',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.handsatwork.co.za/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: 7,
+        disableTracking: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function(global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function() {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=2';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function(registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    },
+                    function(err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function(err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function() {
+            var refreshing;
+            return function() {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function(resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="Services.html">
+
+<meta id="view" name="viewport"
+      content=", initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"/>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+16.57.19.png"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp-cdn.multiscreensite.com/ec6ff8e2/site_favicon_16_1581174307402.ico"/>
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://lirp-cdn.multiscreensite.com/" crossorigin />
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+
+    function loadCSS(link) {
+        try {
+            var urlParams = new URLSearchParams(window.location.search);
+            var noCSS = !!urlParams.get('nocss');
+            var cssTimeout = urlParams.get('cssTimeout') || 0;
+
+            if (noCSS) {
+                return;
+            }
+            requestIdleCallback(function () {
+                window.setTimeout(function () {
+                    link.onload = null;
+                    link.rel = 'stylesheet';
+                    link.type = 'text/css'
+                }, parseInt(cssTimeout, 10));
+            });
+        } catch (e) {/* Never fail - this is just a tool for measurements */}
+    }
+
+</script>
+<script>
+(function(n){"use strict";if(!n.l){n.l=function(){}}var o=loadCSS.t={};o.o=function(){var l;try{l=n.document.createElement("link").relList.supports("preload")}catch(e){l=false}return function(){return l}}();o.i=function(e){var l=e.media||"all";function enableStylesheet(){if(e.addEventListener){e.removeEventListener("load",enableStylesheet)}else if(e.attachEvent){e.detachEvent("onload",enableStylesheet)}e.setAttribute("onload",null);e.media=l}if(e.addEventListener){e.addEventListener("load",enableStylesheet)}else if(e.attachEvent){e.attachEvent("onload",enableStylesheet)}setTimeout(function(){e.rel="stylesheet";e.media="only x"});setTimeout(enableStylesheet,3e3)};o.s=function(){if(o.o()){return}var e=n.document.getElementsByTagName("link");for(var l=0;l<e.length;l++){var t=e[l];if(t.rel==="preload"&&t.getAttribute("as")==="style"&&!t.getAttribute("data-loadcss")){t.setAttribute("data-loadcss",true);o.i(t)}}};if(!o.o()){o.s();var e=n.setInterval(o.s,500);if(n.addEventListener){n.addEventListener("load",function(){o.s();n.clearInterval(e)})}else if(n.attachEvent){n.attachEvent("onload",function(){o.s();n.clearInterval(e)})}}if(typeof exports!=="undefined"){exports.l=loadCSS}else{n.l=loadCSS}})(typeof global!=="undefined"?global:this);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CMontserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CPoppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CMerriweather:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CSource+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext&amp;display=swap"  />
+
+
+<link rel="stylesheet" type="text/css" href="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/css/css-font-package-v2.min.css" />
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css" />
+
+<!-- End of RT CSS Include -->
+
+
+
+    
+       <link type="text/css" rel="stylesheet" href="https://irp-cdn.multiscreensite.com/WIDGET_CSS/production_1473/183f10e9a6d5b3d5becf52cd414baf54.css" id="widgetCSS" />
+    
+
+
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp-cdn.multiscreensite.com/ec6ff8e2/files/ec6ff8e2_1.min.css?v=142" id="siteGlobalCss" />
+
+
+<style id="customWidgetStyle" type="text/css">.widget-5bd886 .full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.widget-5bd886 .iconBg {
+   display: block !important;
+   width: 100px;
+}
+
+.widget-5bd886 < .iconBg {
+   width: 66px;
+}
+
+.widget-5bd886 .whatsapp-fill { /* default color */
+   fill: currentColor;
+}
+
+.widget-5bd886 .wa-btn-transparent {
+    background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.widget-5bd886 a {
+    padding: 0 !important;
+}
+
+.widget-5bd886 .green-wa {
+    flex: 1;
+    height: 80%;
+}
+
+.widget-5bd886 .green-wa img {
+    height: 100%;
+}
+
+.widget-5bd886 .wa-btns {
+    margin: 0 !important;
+}
+
+.widget-5bd886 .flex-text {
+    flex: 3;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-align: left;
+}
+    
+    .widget-5bd886 {
+    /*overflow: hidden;*/
+    margin: 10px auto;
+    width: 278px;
+}
+    
+    .widget-1f5975 .copyright {
+    font-size: 13px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">*#dm *.dmBody h3.u_1207390689
+{
+}
+*#dm *.dmBody div.u_1505636829 *.dmforminput label
+{
+	color:rgba(137,137,137,1) !important;
+	font-weight:normal !important;
+}
+*#dm *.dmBody div.u_1505636829 *.dmforminput input
+{
+	color:rgba(88,88,88,1) !important;
+	font-weight:normal !important;
+}
+*#dm *.dmBody div.u_1505636829 input:not([type="submit"])
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	background-color:rgba(244,244,244,1) !important;
+}
+*#dm *.dmBody div.u_1505636829 textarea
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	background-color:rgba(244,244,244,1) !important;
+}
+*#dm *.dmBody div.u_1505636829 select
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	background-color:rgba(244,244,244,1) !important;
+}
+*#dm *.dmBody *.u_1505636829 *.dmformsubmit
+{
+	float:none !important;
+	display:block !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+*#dm *.dmBody *.u_1946833713:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(0,104,255) !important;
+}
+*#dm *.dmBody *.u_1946833713.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(0,104,255) !important;
+}
+*#dm *.dmBody *.u_1946833713>.bgExtraLayerOverlay
+{
+	opacity:0.5 !important;
+	background-color:rgb(0,104,255) !important;
+}
+*#dm *.dmBody div.u_1946833713:before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.72 !important;
+}
+*#dm *.dmBody div.u_1946833713.before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.72 !important;
+}
+*#dm *.dmBody div.u_1946833713>.bgExtraLayerOverlay
+{
+	background-color:rgba(0,0,0,1) !important;
+}
+*#dm *.dmBody div.u_1311001213
+{
+	background-color:rgba(255,255,255,1) !important;
+	box-shadow:rgba(0,0,0,0.25) 0 3px 11px 0 !important;
+	-moz-box-shadow:rgba(0,0,0,0.25) 0 3px 11px 0 !important;
+	-webkit-box-shadow:rgba(0,0,0,0.25) 0 3px 11px 0 !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:rgba(255,255,255,1) !important;
+	border-right-style:solid !important;
+	border-right-color:rgba(253,22,85,1) !important;
+	border-bottom-style:solid !important;
+	border-bottom-color:rgba(253,22,85,1) !important;
+	border-bottom-width:0 !important;
+	border-right-width:0 !important;
+	border-top-style:solid !important;
+	border-top-width:5px !important;
+	border-top-color:rgba(245,116,0,1) !important;
+}
+*#dm *.dmBody h3.u_1191040685
+{
+	line-height:normal !important;
+}
+*#dm *.dmBody h1.u_1538518442
+{
+	line-height:normal !important;
+}
+*#dm *.dmBody h3.u_1105763131
+{
+}
+*#dm *.dmBody div.u_1457260374 *.dmforminput label
+{
+	color:rgba(137,137,137,1) !important;
+	font-weight:normal !important;
+}
+*#dm *.dmBody div.u_1457260374 *.dmforminput input
+{
+	color:rgba(88,88,88,1) !important;
+	font-weight:normal !important;
+}
+*#dm *.dmBody div.u_1457260374 input:not([type="submit"])
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	background-color:rgba(244,244,244,1) !important;
+}
+*#dm *.dmBody div.u_1457260374 textarea
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	background-color:rgba(244,244,244,1) !important;
+}
+*#dm *.dmBody div.u_1457260374 select
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	background-color:rgba(244,244,244,1) !important;
+}
+*#dm *.dmBody *.u_1457260374 *.dmformsubmit
+{
+	float:none !important;
+	display:block !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+*#dm *.dmBody *.u_1153874095:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(0,104,255) !important;
+}
+*#dm *.dmBody *.u_1153874095.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(0,104,255) !important;
+}
+*#dm *.dmBody div.u_1153874095:before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.72 !important;
+}
+*#dm *.dmBody div.u_1153874095.before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.72 !important;
+}
+*#dm *.dmBody div.u_1450560347
+{
+	background-color:rgba(255,255,255,1) !important;
+	box-shadow:rgba(0,0,0,0.25) 0 3px 11px 0 !important;
+	-moz-box-shadow:rgba(0,0,0,0.25) 0 3px 11px 0 !important;
+	-webkit-box-shadow:rgba(0,0,0,0.25) 0 3px 11px 0 !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:rgba(255,255,255,1) !important;
+	border-right-style:solid !important;
+	border-right-color:rgba(253,22,85,1) !important;
+	border-bottom-style:solid !important;
+	border-bottom-color:rgba(253,22,85,1) !important;
+	border-bottom-width:0 !important;
+	border-right-width:0 !important;
+	border-top-style:solid !important;
+	border-top-width:5px !important;
+	border-top-color:rgba(245,116,0,1) !important;
+}
+*#dm *.dmBody *.u_1693679926:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_1693679926.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_1693679926>.bgExtraLayerOverlay
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody div.u_1693679926:before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.75 !important;
+}
+*#dm *.dmBody div.u_1693679926.before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.75 !important;
+}
+*#dm *.dmBody div.u_1693679926>.bgExtraLayerOverlay
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.75 !important;
+}
+*#dm *.dmBody h3.u_1916530090
+{
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1946833713
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	background-color:rgba(255,255,255,1) !important;
+	background-size:cover !important;
+}
+*#dm *.dmBody div.u_1153874095
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+19.10.04.png) !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody *.u_1865178560
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1412774827
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1189086481
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1409322865
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1505095358
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1318021248
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1191491808
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1836086432
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1886049689
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1467196972
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1642119092
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1256759510
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1342946139
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1820972125
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1167228699
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1256493252
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1148770796
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1452175998
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1485865314
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1465887301
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1101447233
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1835690353
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1665463211
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1278961436
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1938928034
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1044671132
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1475627456
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1263299956
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1238759894
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1651184361
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1928800935
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1037312402
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1770804460
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1980134192
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1485165122
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1526244715
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1719652074
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1640626458
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1120814878
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1344588276
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1697587817
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1333052960
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1408790662
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1002634000
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1671751378
+{
+	background-position:0 50% !important;
+}
+*#dm *.dmBody *.u_1174973060
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1547187553
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1669166964
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1480384356
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1626280845
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1629643843
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1892378392
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1228270853
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1787410660
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1658169251
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1514361584
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1708445472
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1600495736
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1464807977
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1067196961
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1725726471
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1354139232
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1414857698
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1734187086
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1912890614
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1759635097
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1558354292
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1834184961
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1317874647
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1614956435
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1307460679
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1081121231
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1507464346
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1620162971
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1269143268
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1734577872
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1436550788
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1380408050
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1800682496
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1157242777
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1506148236
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1713578762
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1878970691
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1421315401
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1490976565
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1680928050
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1852081630
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1548695750
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1866034699
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1422998152
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1323839003
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1013840787
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1939543507
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1405668713
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1142250001
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1063176296
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1400444415
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1219746027
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1684217029
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1707285321
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1450799118
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1572464059
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1798388624
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1670776355
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1885013110
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1998917864
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1528368165
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1215399091
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1116212211
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1637564979
+{
+	background-position:0 50% !important;
+}
+*#dm *.dmBody *.u_1374041487
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1848146623
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1849663163
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1124874162
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1483210332
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1086562594
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1361249825
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1895187267
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1727042048
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1683625893
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1272444543
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1479040943
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1638396372
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1618936959
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1307922002
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1218582008
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1770604825
+{
+	background-position:0 50% !important;
+}
+*#dm *.dmBody div.u_1693679926
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+19.10.04.png) !important;
+	background-size:cover !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">*#dm *.dmBody div.u_1153874095
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.10.04-1920w.png) !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1693679926
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.10.04-1920w.png) !important;
+	background-size:cover !important;
+}@media all and (min-width:1920px), all and (-webkit-min-device-pixel-ratio: 1.5), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+
+*#dm *.dmBody div.u_1153874095
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.10.04-2880w.png) !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1693679926
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.10.04-2880w.png) !important;
+	background-size:cover !important;
+}
+}
+*#dm *.dmBody div.caption-container *.caption-text *.rteBlock{
+font-size:14px !important}
+*#dm *.dmBody h3.u_1207390689{
+padding-left:20px !important;
+padding-right:20px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1416115071{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:8px !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody h2.u_1207390689{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important}
+*#dm *.dmBody div.u_1505636829 *.dmformsubmit{
+width:348px !important;
+height:50px !important}
+*#dm *.dmBody div.u_1505636829{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important}
+*#dm *.dmBody div.u_1946833713{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:50px !important;
+padding-left:20px !important;
+padding-bottom:50px !important;
+max-width:none !important;
+padding-right:20px !important;
+min-width:0 !important;
+text-align:center !important;
+background-attachment:fixed !important;
+background-size:cover !important;
+background-repeat:no-repeat !important;
+margin-left:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody h3.u_1191040685{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:465.609px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1311001213{
+padding-right:15px !important;
+padding-left:15px !important;
+padding-top:15px !important;
+padding-bottom:0 !important;
+margin-bottom:-180px !important;
+margin-top:40px !important}
+*#dm *.dmBody h3.u_1105763131{
+padding-left:20px !important;
+padding-right:20px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1364200150{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:8px !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody h2.u_1105763131{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important}
+*#dm *.dmBody div.u_1457260374 *.dmformsubmit{
+width:348px !important;
+height:50px !important}
+*#dm *.dmBody div.u_1457260374{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important}
+*#dm *.dmBody h1.u_1538518442{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 5px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:460px !important;
+margin-top:92px !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important;
+display:block !important}
+*#dm *.dmBody div.u_1110018654{
+padding-right:0 !important;
+padding-left:10px !important}
+*#dm *.dmBody div.u_1450560347{
+padding-right:15px !important;
+padding-left:15px !important;
+padding-top:15px !important;
+padding-bottom:0 !important;
+margin-bottom:-180px !important;
+margin-top:40px !important}
+*#dm *.dmBody h3.u_1105763131{
+padding-left:20px !important;
+padding-right:20px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1364200150{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:8px !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody h2.u_1105763131{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important}
+*#dm *.dmBody div.u_1457260374 *.dmformsubmit{
+width:348px !important;
+height:50px !important}
+*#dm *.dmBody div.u_1457260374{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 0px) !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important}
+*#dm *.dmBody h1.u_1538518442{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 5px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:460px !important;
+margin-top:92px !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important;
+display:block !important}
+*#dm *.dmBody div.u_1110018654{
+padding-right:0 !important;
+padding-left:10px !important}
+*#dm *.dmBody div.u_1450560347{
+padding-right:15px !important;
+padding-left:15px !important;
+padding-top:15px !important;
+padding-bottom:0 !important;
+margin-bottom:-180px !important;
+margin-top:40px !important}
+*#dm *.dmBody div.u_1693679926{
+padding-top:15px !important;
+margin-top:0 !important;
+margin-bottom:0 !important}
+*#dm *.dmBody h3.u_1916530090{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:465.609px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important}
+*#dm *.dmBody h3.u_1916530090{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:465.609px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1153874095{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:50px !important;
+padding-left:20px !important;
+padding-bottom:50px !important;
+max-width:none !important;
+padding-right:20px !important;
+min-width:0 !important;
+text-align:center !important;
+background-attachment:fixed !important;
+background-size:cover !important;
+background-repeat:no-repeat !important}
+*#dm *.dmBody div.u_1153874095{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:50px !important;
+padding-left:20px !important;
+padding-bottom:50px !important;
+max-width:none !important;
+padding-right:20px !important;
+min-width:0 !important;
+text-align:center !important;
+background-attachment:fixed !important;
+background-size:cover !important;
+background-repeat:no-repeat !important}
+*#dm *.dmBody div.u_1474549262{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:960px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1376099328{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:7px !important;
+margin-bottom:10px !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1242588681{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1242588681{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1100171886{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1100171886{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1868701431{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:960px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important}
+</style>
+
+
+
+
+<!--[if IE 7]><style>.fw-head.fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}</style><![endif]-->
+<!--[if IE 8]><style>.fw-head .fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}*#dm div.dmHeader{_height:90px;min-height:0px;}</style><![endif]-->
+
+
+
+    <style id="globalFontSizeStyle" type="text/css">.font-size-36, .size-36, .size-36 > font { font-size: 36px !important; }.font-size-60, .size-60, .size-60 > font { font-size: 60px !important; }.font-size-36, .size-36, .size-36 > font { font-size: 36px !important; }.font-size-36, .size-36, .size-36 > font { font-size: 36px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }
+    </style>
+    <style id="pageFontSizeStyle" type="text/css">
+    </style>
+
+
+<!-- Flex Sections CSS -->
+
+
+<!-- ========= JS Section ========= -->
+
+<!-- Modernizr -->
+<script>
+    /* THIS FILE IS AUTO-GENERATED. SEE build/build-modernizr */
+
+/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-passiveeventlisteners-supports-setclasses-cssclassprefix:dm- !*/
+!function(e,n,s){function o(e,n){return typeof e===n}function t(){var e,n,s,t,a,r,l;for(var c in i)if(i.hasOwnProperty(c)){if(e=[],n=i[c],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)r=e[a],l=r.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),f.push((t?"":"no-")+l.join("-"))}}function a(e){var n=l.className,s=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");n=n.replace(o,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(n+=" "+s+e.join(" "+s),c?l.className.baseVal=n:l.className=n)}var i=[],r={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){i.push({name:e,fn:n,options:s})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=r,Modernizr=new Modernizr;var f=[],l=n.documentElement,c="svg"===l.nodeName.toLowerCase(),u="CSS"in e&&"supports"in e.CSS,p="supportsCSS"in e;Modernizr.addTest("supports",u||p),Modernizr.addTest("passiveeventlisteners",function(){var n=!1;try{var s=Object.defineProperty({},"passive",{get:function(){n=!0}});e.addEventListener("test",null,s)}catch(o){}return n}),t(),a(f),delete r.addTest,delete r.addAsyncTest;for(var d=0;d<Modernizr._q.length;d++)Modernizr._q[d]();e.Modernizr=Modernizr}(window,document);
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    
+    window.collections = {};
+    </script>
+<script>
+    window.customWidgetsFunctions["5bd886efb15a44fd98f083f461519ec8~186"] = function (element, data, api) {
+        
+$(element).find('a').each(function() {
+    var href = buildNewHref(cleanPhoneText(data.config.waNumber), cleanAndEncodeText(data.config.defaultMessage));
+    $(this).attr('href', href);
+    function clickHandler() {
+       window.dmsnowplow && window.dmsnowplow("Whatsapp", "Message", element, data.siteId)
+    }
+    element.off('click', clickHandler).on('click', clickHandler);
+})
+
+function cleanPhoneText(phone) {
+    return phone ? phone.replace(/[^0-9]/g, '') : "";
+}
+
+function cleanAndEncodeText(text) {
+    var returnString="";
+    if (text) {
+        returnString = text.replace(/<br>/g, '\n');
+        returnString = encodeURIComponent(returnString);
+    }
+    return returnString;
+}
+
+function buildNewHref (phone, text) {
+    var href;
+    if (data.inEditor) {
+        //editor is on touch device
+        if (window.isMobileDevice || window.parent.isTouchDevice) {
+            href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+        }
+        //etitor on desktop
+        else {
+            href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+        }
+    }
+    // not in editor - runtime
+    else {
+         if (data.device === "desktop") {
+             href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+         }
+         //on touch device
+         else {
+             href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+         }
+    }
+    return href;
+}
+
+    };
+</script>
+<script>
+                window.collections = JSON.parse(decodeURIComponent(escape(atob("e30="))));
+</script>
+
+
+
+<script type="text/javascript">
+
+    var version = "5.9.1";
+    var build = "2020-10-29T08_19_00";
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2020-10-29T08_19_00";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" src="https://static-cdn.multiscreensite.com/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery --><script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<script>
+    var shouldMonitorImages =  false;
+    if(shouldMonitorImages) {
+        window.addEventListener('error', function(event) {
+            if(event.target && event.target.tagName === 'IMG' && event.target.src && event.target.src.includes && event.target.src.includes('multiscreensite.com')) {
+                if (!window.fetch){
+                    return;
+                }
+                try {
+                    return fetch('/_dm/s/rt/actions/log/WARN', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ data: {
+                                type: 'image failed to load',
+                                eventType: event.type,
+                                image: event.target.src,
+                                href: window.location.href
+                            } })
+                    });
+                } catch (error) {
+                    console.log(error);
+                }
+
+            }
+        }, { capture: true });
+    }
+
+</script>
+<!-- HEAD RT JS Include -->
+<script>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["facebook.accessToken"] = '126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["feature.flag.contactUsNewForm"] = 'true';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"]=true;
+    rtCommonProps["common.build.dist.folder"]='production/1473';
+    rtCommonProps["common.resources.cdn.host"]='https://static-cdn.multiscreensite.com';
+    rtCommonProps["common.resources.folder"]='https://static-cdn.multiscreensite.com/mnlt/production/1473';
+    rtCommonProps["import.images.storage.useImageCDN"]=true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.animations.allowInMobile"]=true;
+    rtCommonProps["feature.flag.videoRefresh.refactor"]=true;
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['editor.infra.noPrefixedChanges'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.mark.anchors']= true;
+    rtCommonProps['feature.flag.runtime.miniheader.chromefix'] = false;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"]=160;
+    rtCommonProps["images.sizes.mobile"]=640;
+    rtCommonProps["images.sizes.tablet"]=1280;
+    rtCommonProps["images.sizes.desktop"]=1920;
+    rtCommonProps["modules.resources.cdn"]=true;
+    rtCommonProps["import.images.storage.imageCDN"]='https://lirp-cdn.multiscreensite.com/';
+    rtCommonProps["facebook.api.version"]='7.0';
+    rtCommonProps["custom.widget.new.runtime.enabled"]=true;
+
+</script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/scripts/d-js-runtime-one-package.min.js" ></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-package.min.js" ></script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1473/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-desktop.min.js" ></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+
+
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+  <title>
+    Hands at Work  Construction,  Building, Roofing Contractor
+  </title>
+  <meta name="keywords" content="Construction Building, Contractor Roof Contractor Waterproofing Contractor Renovating Contractor Paint"/>
+  <meta name="description" content="Our main aim to be the best in the building and contracting industry with quality workmanship at reasonable rates. We give a guarantee on all our projects undertaken.  We want to be the most reputable company by outsourcing on the best efficient reliable trustworthy tradesman to give our customers that peace of mind."/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Hands at Work  Construction,  Building, Roofing Contractor"/>
+  <meta name="twitter:description" content="Our main aim to be the best in the building and contracting industry with quality workmanship at reasonable rates. We give a guarantee on all our projects undertaken.  We want to be the most reputable company by outsourcing on the best efficient reliable trustworthy tradesman to give our customers that peace of mind."/>
+  <meta name="twitter:image" content="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.19.32-1920w.png"/>
+  <meta property="og:description" content="Our main aim to be the best in the building and contracting industry with quality workmanship at reasonable rates. We give a guarantee on all our projects undertaken.  We want to be the most reputable company by outsourcing on the best efficient reliable trustworthy tradesman to give our customers that peace of mind."/>
+  <meta property="og:title" content="Hands at Work  Construction,  Building, Roofing Contractor"/>
+  <meta property="og:image" content="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.19.32-1920w.png"/>
+
+
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot"  class="supportsFontIcons supportsFontIcons dmRoot dmDesktopBody fix-mobile-scrolling dmResellerSite mac dmLargeBody " style="padding:0;margin:0;"
+            >
+        <div id="disabledImageZone" style="display:none;z-index:-1">
+            <style type="text/css">#imageZone {
+                    position: absolute;
+                    margin: auto;
+                }
+
+                .coloumns {
+                    border-radius: 3px;
+                    background-color: rgb(249, 152, 13); /*border:1px solid #999;*/
+                    height: 18px;
+                    width: 6px;
+                    -webkit-animation-name: loader;
+                    -webkit-animation-duration: 1s;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-direction: linear;
+                    -moz-animation-name: loader;
+                    -moz-animation-duration: 1s;
+                    -moz-animation-iteration-count: infinite;
+                    -moz-animation-direction: linear;
+                    opacity: .25;
+                    -webkit-transform: scale(0.7);
+                    -webkit-transform-origin: 50% 180%;
+                    -moz-transform: scale(0.7);
+                    -moz-transform-origin: 50% 180%;
+                    position: absolute;
+                }
+
+                #coloumn1 {
+                    -webkit-transform: rotate(0deg);
+                    -webkit-animation-delay: -.914s;
+                    -moz-transform: rotate(0deg);
+                    -moz-animation-delay: -.914s;
+                }
+
+                #coloumn2 {
+                    -webkit-transform: rotate(30deg);
+                    -webkit-animation-delay: -.831s;
+                    -moz-transform: rotate(30deg);
+                    -moz-animation-delay: -.831s;
+                }
+
+                #coloumn3 {
+                    -webkit-transform: rotate(60deg);
+                    -webkit-animation-delay: -.747s;
+                    -moz-transform: rotate(60deg);
+                    -moz-animation-delay: -.747s;
+                }
+
+                #coloumn4 {
+                    -webkit-transform: rotate(90deg);
+                    -webkit-animation-delay: -.664s;
+                    -moz-transform: rotate(90deg);
+                    -moz-animation-delay: -.664s;
+                }
+
+                #coloumn5 {
+                    -webkit-transform: rotate(120deg);
+                    -webkit-animation-delay: -.581s;
+                    -moz-transform: rotate(120deg);
+                    -moz-animation-delay: -.581s;
+                }
+
+                #coloumn6 {
+                    -webkit-transform: rotate(150deg);
+                    -webkit-animation-delay: -.498s;
+                    -moz-transform: rotate(150deg);
+                    -moz-animation-delay: -.498s;
+                }
+
+                #coloumn7 {
+                    -webkit-transform: rotate(180deg);
+                    -webkit-animation-delay: -.415s;
+                    -moz-transform: rotate(180deg);
+                    -moz-animation-delay: -.415s;
+                }
+
+                #coloumn8 {
+                    -webkit-transform: rotate(210deg);
+                    -webkit-animation-delay: -.332s;
+                    -moz-transform: rotate(210deg);
+                    -moz-animation-delay: -.332s;
+                }
+
+                #coloumn9 {
+                    -webkit-transform: rotate(240deg);
+                    -webkit-animation-delay: -.249s;
+                    -moz-transform: rotate(240deg);
+                    -moz-animation-delay: -.249s;
+                }
+
+                #coloumn10 {
+                    -webkit-transform: rotate(270deg);
+                    -webkit-animation-delay: -.166s;
+                    -moz-transform: rotate(270deg);
+                    -moz-animation-delay: -.166s;
+                }
+
+                #coloumn11 {
+                    -webkit-transform: rotate(300deg);
+                    -webkit-animation-delay: -.083s;
+                    -moz-transform: rotate(300deg);
+                    -moz-animation-delay: -.083s;
+                }
+
+                #coloumn12 {
+                    -webkit-transform: rotate(330deg);
+                    -moz-transform: rotate(330deg);
+                }
+
+                @-webkit-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+
+                @-moz-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+            </style>
+            <div id='imageZone'>
+                <div id='coloumn1' class='coloumns'></div>
+                <div id='coloumn2' class='coloumns'></div>
+                <div id='coloumn3' class='coloumns'></div>
+                <div id='coloumn4' class='coloumns'></div>
+                <div id='coloumn5' class='coloumns'></div>
+                <div id='coloumn6' class='coloumns'></div>
+                <div id='coloumn7' class='coloumns'></div>
+                <div id='coloumn8' class='coloumns'></div>
+                <div id='coloumn9' class='coloumns'></div>
+                <div id='coloumn10' class='coloumns'></div>
+                <div id='coloumn11' class='coloumns'></div>
+                <div id='coloumn12' class='coloumns'></div>
+            </div>
+        </div>
+
+        <!-- ========= Site Content ========= -->
+        <div id="dm" class='dmwr'>
+            
+            <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+                 <div dmwrapped="true" id="1438106169"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations dmPageBody d-page-1599097370 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1599097370" data-buttonstyle="BORDER_SHORT" data-soch="true" data-background-size="cover" data-background-attachment="fixed" data-background-repeat="no-repeat" data-background-position="50% 0%" data-background-hide-inner="true" data-background-fullbleed="false" data-background-parallax-selector=".dmSectionParallex" data-background-parallax-speed="0.2"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None"></ul> 
+ <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" has-shadow="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="dmRespRow dmDefaultListContentRow u_1783767067 fullBleedChanged fullBleedMode" style="text-align:center" id="1783767067"> <div class="dmRespColsWrapper" id="1527230018"> <div class="u_1952458124 small-12 dmRespCol large-2 medium-2" id="1952458124"> <div class="u_1623205752 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1623205752" data-element-type="image"> <a href="index.html" id="1829253137" dm_dont_rewrite_url="false" file="false"><img src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+16.57.19-480w.png" id="1359157006" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+16.57.19.png" data-hover-effect="none" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1068781528 dmRespCol small-12 large-8 medium-8" id="1068781528"> <span id="1605138758"></span> 
+ <nav class="u_1783404857 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1783404857" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-nav-structure="HORIZONTAL" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="false"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Home
+        
+                " data-auto&#x3d;page-text-style="">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="about-us.html" class="unifiednav__item  dmUDNavigationItem_010101325370  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         About Us
+        
+                " data-auto&#x3d;page-text-style="">About Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="Services.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101298332  " target="" data-target-page-alias="" data-auto&#x3d;selected-page=""> <span class="nav-item-text " data-link-text="
+                  
+         Services
+        
+                " data-auto&#x3d;page-text-style="">Services<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="Contact.html" class="unifiednav__item  dmUDNavigationItem_010101960562  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Contact
+        
+                " data-auto&#x3d;page-text-style="">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="systemadmin.html" class="unifiednav__item  dmUDNavigationItem_010101342348  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         SystemAdmin
+        
+                " data-auto&#x3d;page-text-style="">SystemAdmin<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1467130560 dmRespCol small-12 large-2 medium-2" id="1467130560"> <span id="1692637248"></span> 
+ <div class="u_1603744404 widget-5bd886 dmCustomWidget" data-lazy-load="" id="1603744404" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="5bd886efb15a44fd98f083f461519ec8" data-widget-version="186" data-widget-config="eyJ3YU51bWJlciI6IisyNyA4MiAwNDEgMTUxNSIsImJ0blRleHQiOiIgV2hhdHNBcHAgdXMiLCJkZWZhdWx0TWVzc2FnZSI6IiIsImFsdCI6Ik1lc3NhZ2UgdXMgb24gV2hhdHNBcHAiLCJ3YUxheW91dCI6ImJ0bldpdGhJY29uIn0="> <a data-display-type="block" class="dmWidget wa-btns default align-center full" target="_blank" data-buttonstyle="FLAT_ROUND_ICON"> <span class="iconBg"> <span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewbox="-5 -5 39 38"> <g class="whatsapp-fill" fill-rule="nonzero"> <path d="M10.743 8.158c-.259-.571-.531-.583-.777-.593-.202-.008-.432-.008-.663-.008-.23 0-.604.086-.921.43-.317.342-1.21 1.171-1.21 2.857 0 1.686 1.239 3.316 1.411 3.544.173.229 2.391 3.8 5.903 5.173 2.92 1.142 3.513.915 4.147.857.634-.057 2.044-.828 2.332-1.629.288-.8.288-1.486.202-1.629-.086-.143-.317-.228-.662-.4-.346-.171-2.045-1-2.362-1.115-.316-.114-.547-.17-.777.172-.23.343-.892 1.115-1.094 1.343-.202.23-.403.258-.749.086-.345-.172-1.458-.533-2.779-1.7-1.027-.909-1.72-2.03-1.922-2.374-.202-.342-.022-.528.152-.699.155-.153.345-.4.518-.6.172-.2.23-.343.345-.571.115-.23.058-.43-.029-.6-.086-.172-.758-1.867-1.065-2.544z"></path> 
+ <path d="M14.347 25.116h-.004a11.554 11.554 0 0 1-5.85-1.589l-.42-.247-4.351 1.132 1.161-4.205-.273-.432a11.296 11.296 0 0 1-1.758-6.064c.003-6.283 5.16-11.395 11.5-11.395a11.469 11.469 0 0 1 8.126 3.342 11.279 11.279 0 0 1 3.364 8.062c-.003 6.284-5.16 11.396-11.495 11.396M24.13 4.021A13.802 13.802 0 0 0 14.347 0C6.724 0 .52 6.15.517 13.71c0 2.416.636 4.775 1.846 6.854L.401 27.67l7.332-1.906a13.912 13.912 0 0 0 6.608 1.669h.006c7.622 0 13.827-6.152 13.83-13.711a13.57 13.57 0 0 0-4.047-9.7"></path> 
+</g> 
+</svg> 
+</span> 
+</span> 
+ <span class="text">WhatsApp us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">Services</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1438106169" class="dmBody u_dmStyle_template_Services"> <div id="allWrapper" class="allWrapper"> <div id="dm_content" class="dmContent"> <div dm:templateorder="1" class="dmDefaultRespTmpl" id="1599097370"> <div class="innerPageTmplBox dmDefaultPage  dmRespRowsWrapper" id="1784663123"> <div class="u_1153874095 dmRespRow mobile-columns-reversed hide-for-small dmSectionParallaxNew" style="text-align: center;" id="1153874095" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9saXJwLWNkbi5tdWx0aXNjcmVlbnNpdGUuY29tL21kL3Vuc3BsYXNoL2RtczNyZXAvbXVsdGkvb3B0L3Bob3RvLTE1MDI0ODcxMDMzNjctYzk4ZjcxOTYwNGY2LTE5MjB3LmpwZyJdLCJzcGVlZCI6IjMiLCJ0cmFuc2l0aW9uIjoic2xpZGVSaWdodCJ9" mode="1"> <div class="dmRespColsWrapper" id="1859765335"> <div class="u_1110018654 dmRespCol small-12 large-6 medium-6" id="1110018654" data-anim-desktop="fadeInLeft"> <h1 class="u_1538518442 dmNewParagraph" id="1538518442" style="transition: none 0s ease 0s; display: block;" data-uialign="center" data-editor-state="closed" data-element-type="paragraph"><div style="text-align: left;"><span style="" class="m-font-size-36 lh-1 font-size-60"><font style="color: rgb(255, 255, 255);"><span style="font-weight: 600;" class="font-size-36 lh-1">Services</span></font></span></div></h1></div> 
+ <div class="u_1450560347 dmRespCol small-12 large-6 medium-6" id="1450560347" data-anim-desktop="fadeInRight"> <h2 class="u_1105763131 dmNewParagraph" id="1105763131" data-uialign="center" style="transition-duration: 1s; transition-timing-function: ease-in-out; transition-delay: initial; transition-property: opacity; display: block;" data-editor-state="closed" data-element-type="paragraph"><div style="text-align: center;"><span style="font-size: 25px;">GET IN TOUCH NOW</span></div></h2> <div class="u_1364200150 dmNewParagraph" data-dmtmpl="true" id="1364200150" data-uialign="center" style="transition: opacity 1s ease-in-out;"><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><div style="text-align: center;">To cut down on your waiting time, simply book your Free Quotation appointment online.</div></blockquote></blockquote></div> <div class="u_1457260374 dmform default" preserve_css="true" id="1457260374" data-layout="layout-1" data-element-type="dContactUsRespId"> <h3 class="dmform-title dmwidget-title" id="1217065974" hide="true"></h3> 
+ <div class="dmform-wrapper" preserve_css="true" id="1621741942" captcha-lang="en"> <form method="post" class="dmRespDesignRow" locale="ENGLISH" id="1730763571"> <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1064364104"> <label for="dmform-0" id="1848789754" class=""></label> 
+<input type="text" class="" name="dmform-0" id="1972579650" placeholder="Name"/><input type="hidden" name="label-dmform-0" id="1038374804" class=""/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1470115350"> <label for="dmform-1" id="1095440281" class=""></label> 
+<input type="email" class="" name="dmform-1" id="1174695603" placeholder="Email"/><input type="hidden" name="label-dmform-1" id="1639553526" class=""/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1699318800"> <label for="dmform-2" id="1852802770" class=""></label> 
+<input type="tel" class="" name="dmform-2" id="1652832810" placeholder="Phone"/><input type="hidden" name="label-dmform-2" id="1173566311" class=""/></div> 
+ <div class="dmforminput small-12 dmRespDesignCol medium-4 large-4 medium-12 large-12" id="1469324106"> <label for="dmform-4" id="1499603930" class="" hide="true"></label> 
+ <textarea name="dmform-4" id="1139515396" class="" placeholder="Notes"></textarea> 
+<input type="hidden" name="label-dmform-4" id="1717937836" class=""/></div> 
+ <span id="1891537153" class="dmWidgetClear"></span> 
+ <div class="dmformsubmit dmWidget R" preserve_css="true" id="1401381041"><input class="" name="submit" type="submit" value="SEND" id="1204556546"/></div> 
+<input name="dmformsendto" type="hidden" value="O0wrseIfFLvVSS+rLVbdr7FJognk8dlbhwtHqIBym3WVu7F+Np59LWBugaxUzXMCb7IzAWfKHUE=" preserve_css="true" id="1415075592" data-dec="true"/><input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1311494045"/><input name="dmformsubject" type="hidden" value="Form Message" preserve_css="true" id="1987595385"/></form> 
+</div> 
+ <div class="dmform-success" style="display:none" preserve_css="true" id="1601887351">Thank you for contacting us.<br id="1712384330"/>We will get back to you as soon as possible</div> 
+ <div class="dmform-error" style="display:none" preserve_css="true" id="1877254809">Oops, there was an error sending your message.<br id="1975750315"/>Please try again later</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1332537300 dmRespRow" style="text-align: center;" id="1332537300"> <div class="dmRespColsWrapper" id="1004868354"> <div class="u_1290985114 dmRespCol small-12 large-6 medium-6" id="1290985114"> <h3 class="u_1916530090 dmNewParagraph" id="1916530090" style="transition: opacity 1s ease-in-out 0s; display: block;" data-uialign="center" data-element-type="paragraph"><div style="text-align: center;"><font color="#284053"><span style="" class="font-size-36 lh-1"><b style="">8+ High Quality Services</b></span></font></div></h3></div> 
+ <div class="u_1720779518 dmRespCol small-12 large-6 medium-6 empty-column" id="1720779518"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1261682120"> <div class="dmRespColsWrapper" id="1194552626"> <div class="dmRespCol large-12 medium-12 small-12" id="1729797099"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1749101973" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"><b style="" class="lh-1 font-size-24"><font style="color: rgb(74, 162, 91);" class="lh-1 font-size-30"><span class="lh-1" style="">&nbsp;</span><span style="" class="lh-1 font-size-30">OFFICE AND HOME RENOVATIONS. RESTORATION AND REPAIRS</span></font></b></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1121629226"> <div class="dmRespColsWrapper" id="1258588919"> <div class="dmRespCol large-12 medium-12 small-12" id="1229851055"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1642359130" style="transition: opacity 1s ease-in-out 0s;">We revamp houses/offices and modernise them into most desirable Homes/Offices. We are big on RENOVATIONS offering full Building Renovations. We fix cracked walls, peeling off paints, sagging ceilings, doors, cupboards, faulty roofs. We tackle any Building Renovations Project from start to finish producing the best Results.</div> <div class="dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1070786828" data-placeholder="false"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1435915213" dont_set_id="true"> <li index="0" class="photoGalleryThumbs" id="1699067976"> <div class="image-container" id="1656829491"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+21.28.17.png" id="1056076266" class="u_1056076266"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+21.28.17-1920w.png" irh="1" irw="2" id="1169634254" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1865178560" id="1865178560"> <span class="caption-inner" id="1271067123"> <h3 class="caption-title u_1412774827" id="1412774827">City skyline</h3> 
+ <div class="caption-text u_1189086481" id="1189086481">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1409322865" href="" id="1409322865"> <span class="iconBg" id="1684595452"> <span class="icon hasFontIcon icon-star" id="1236524724"></span> 
+</span> 
+ <span class="text" id="1369557960">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1025108742"> <div class="image-container" id="1781444357"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+21.27.45.png" id="1336149543" class="u_1336149543"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+21.27.45-1920w.png" irh="3" irw="4" id="1321084622" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1886049689" id="1886049689"> <span class="caption-inner" id="1925235547"> <h3 class="caption-title u_1467196972" id="1467196972">Fashion Magazine</h3> 
+ <div class="caption-text u_1642119092" id="1642119092">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1256759510" href="" id="1256759510"> <span class="iconBg" id="1473064161"> <span class="icon hasFontIcon icon-star" id="1525307341"></span> 
+</span> 
+ <span class="text" id="1226920670">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1442800695"> <div class="image-container" id="1112163642"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+21.28.48.png" id="1049591924"><img irh="" irw="" data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+21.28.48-1920w.png" id="1581760313" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1456761395"> <span class="caption-inner" id="1941744123"> <h3 class="caption-title" id="1363465958"></h3> 
+ <div class="caption-text" id="1660899204"></div> 
+ <a class="caption-button dmWidget clearfix" id="1607526769"> <span class="iconBg" id="1512569465"> <span class="icon hasFontIcon icon-star" id="1698423275"></span> 
+</span> 
+ <span class="text" id="1196949398">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1888321316"></div> 
+ <li index="1" class="photoGalleryThumbs" id="1585432518"> <div class="image-container" id="1592124270"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+19.17.13.png" id="1720980021" class="u_1720980021"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.17.13-1920w.png" irh="2" irw="3" id="1830129584" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1505095358" id="1505095358"> <span class="caption-inner" id="1702272765"> <h3 class="caption-title u_1318021248" id="1318021248">Birthday Sparks</h3> 
+ <div class="caption-text u_1191491808" id="1191491808">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1836086432" href="" id="1836086432"> <span class="iconBg" id="1261903827"> <span class="icon hasFontIcon icon-star" id="1690798314"></span> 
+</span> 
+ <span class="text" id="1902845285">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1359934116"> <div class="dmRespColsWrapper" id="1159396614"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1821874576"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1334645335"> <div class="dmRespColsWrapper" id="1866873613"> <div class="dmRespCol large-12 medium-12 small-12" id="1593894370"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1878411767" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"><b style="" class="font-size-24 lh-1"><font style="color: rgb(74, 162, 91);" class="lh-1 font-size-30"><span class="lh-1">&nbsp;</span>WALL AND ROOF PAINTING</font></b></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1177942934"> <div class="dmRespColsWrapper" id="1312011021"> <div class="dmRespCol large-12 medium-12 small-12" id="1468383799"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1123280486" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center">We are Painting Technicians. We understand the importance of painting, hence we pay vital attention to preparations works by opening the cracks on the walls, properly filling them up with plaster mixture, if they are minor fill them up with Polyfilla .<span style="background-color: transparent;">Smooth sanding them to match the textures of the rest of the wall surfaces. We carefully attend all the visible damages on the walls.</span><span style="background-color: transparent;">We apply Primer first, followed by 2 coats of the colour paint. We carefully trim the edges.</span></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1024485820"> <div class="dmRespColsWrapper" id="1044577314"> <div class="dmRespCol large-12 medium-12 small-12" id="1388670138"> <div class="dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1979562248"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1798167000" dont_set_id="true"> <li index="0" class="photoGalleryThumbs" id="1771649684"> <div class="image-container" id="1881275006"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+21.29.01.png" id="1691419527" class="u_1691419527"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+21.29.01-1920w.png" irh="1" irw="2" id="1674405667" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1342946139" id="1342946139"> <span class="caption-inner" id="1014048082"> <h3 class="caption-title u_1820972125" id="1820972125">City skyline</h3> 
+ <div class="caption-text u_1167228699" id="1167228699">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1256493252" href="" id="1256493252"> <span class="iconBg" id="1457679444"> <span class="icon hasFontIcon icon-star" id="1576256641"></span> 
+</span> 
+ <span class="text" id="1213193719">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="1" class="photoGalleryThumbs" id="1895678229"> <div class="image-container" id="1694150213"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+21.32.54.png" id="1550645129" class="u_1550645129"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+21.32.54-1920w.png" irh="2" irw="3" id="1305514536" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1148770796" id="1148770796"> <span class="caption-inner" id="1828324540"> <h3 class="caption-title u_1452175998" id="1452175998">Birthday Sparks</h3> 
+ <div class="caption-text u_1485865314" id="1485865314">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1465887301" href="" id="1465887301"> <span class="iconBg" id="1959469778"> <span class="icon hasFontIcon icon-star" id="1287889237"></span> 
+</span> 
+ <span class="text" id="1158716759">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1115571538"> <div class="image-container" id="1929340027"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+21.31.52.png" id="1670412206" class="u_1670412206"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+21.31.52-1920w.png" irh="3" irw="4" id="1971456047" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1101447233" id="1101447233"> <span class="caption-inner" id="1514216898"> <h3 class="caption-title u_1835690353" id="1835690353">Fashion Magazine</h3> 
+ <div class="caption-text u_1665463211" id="1665463211">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1278961436" href="" id="1278961436"> <span class="iconBg" id="1780433171"> <span class="icon hasFontIcon icon-star" id="1518182182"></span> 
+</span> 
+ <span class="text" id="1486505911">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1564093977"> <div class="image-container" id="1811061242"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+19.26.35.png" id="1228562674" class="u_1228562674"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.26.35-1920w.png" irh="4" irw="5" id="1466081319" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1938928034" id="1938928034"> <span class="caption-inner" id="1604228945"> <h3 class="caption-title u_1044671132" id="1044671132">Blurred Lines</h3> 
+ <div class="caption-text u_1475627456" id="1475627456">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1263299956" href="" id="1263299956"> <span class="iconBg" id="1124766130"> <span class="icon hasFontIcon icon-star" id="1826804978"></span> 
+</span> 
+ <span class="text" id="1093002056">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1196435402"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1718088247"> <div class="dmRespColsWrapper" id="1002421571"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1353993884"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1877759741"> <div class="dmRespColsWrapper" id="1521365623"> <div class="dmRespCol large-12 medium-12 small-12" id="1309783955"> <div class="dmNewParagraph u_1474549262" data-dmtmpl="true" data-element-type="paragraph" id="1474549262" style="transition: opacity 1s ease-in-out 0s; display: block;" data-uialign="center"><b><font style="color: rgb(74, 162, 91);" class="lh-1 font-size-30">ROOF REPAIRS AND MAINTENANCE<font style="" class="lh-1">&nbsp;</font></font></b></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1755137202"> <div class="dmRespColsWrapper" id="1194771723"> <div class="dmRespCol large-12 medium-12 small-12" id="1252087078"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1015766253" style="transition: opacity 1s ease-in-out 0s;">We are Roofing Specialists. We work on any type of Roof, be it Slate, Tiled, Flat Roof, Iron Sheeting. We are able to install a new Roof Trusses, Banderings, Undercover Sheeting, Ridges, Valleys, Barge boards, Fascia boards, Gutters, and Down pipes.<span style="background-color: transparent;">We also offer Waterproofing Solutions to any leaking roof of any kind. Torch on rubberised coating. Membrane and Waterproofing Solutions. Application of Dampcrete and Coprox cement based Waterproofing Solutions.</span><span style="background-color: transparent;">We do all sorts of Roof Repairs and maintenance.</span></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1720354017"> <div class="dmRespColsWrapper" id="1313187316"> <div class="dmRespCol large-12 medium-12 small-12" id="1149167395"> <div class="u_1376099328 dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1376099328"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1441701565" dont_set_id="true"> <li index="1" class="photoGalleryThumbs" id="1173765267"> <div class="image-container" id="1777290538"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-08+at+19.28.28.png" id="1433974087" class="u_1433974087"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-08+at+19.28.28-1920w.png" irh="2" irw="3" id="1053005540" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1770804460" id="1770804460"> <span class="caption-inner" id="1071926485"> <h3 class="caption-title u_1980134192" id="1980134192">Birthday Sparks</h3> 
+ <div class="caption-text u_1485165122" id="1485165122">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1526244715" href="" id="1526244715"> <span class="iconBg" id="1877738833"> <span class="icon hasFontIcon icon-star" id="1456045928"></span> 
+</span> 
+ <span class="text" id="1844893757">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1386631885"> <div class="image-container" id="1606850464"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+15.35.16.png" id="1349901105" class="u_1349901105"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+15.35.16-1920w.png" irh="3" irw="4" id="1186313770" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1719652074" id="1719652074"> <span class="caption-inner" id="1423654284"> <h3 class="caption-title u_1640626458" id="1640626458">Fashion Magazine</h3> 
+ <div class="caption-text u_1120814878" id="1120814878">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1344588276" href="" id="1344588276"> <span class="iconBg" id="1603539017"> <span class="icon hasFontIcon icon-star" id="1656161165"></span> 
+</span> 
+ <span class="text" id="1705337524">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1872916160"></div> 
+ <li index="0" class="photoGalleryThumbs" id="1536785297"> <div class="image-container" id="1171185471"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/WhatsApp+Image+2020-02-05+at+14.59.13.jpeg" id="1053138801" class="u_1053138801"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/WhatsApp+Image+2020-02-05+at+14.59.13-1920w.jpeg" irh="1" irw="2" id="1390314413" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1238759894" id="1238759894"> <span class="caption-inner" id="1413842524"> <h3 class="caption-title u_1651184361" id="1651184361">City skyline</h3> 
+ <div class="caption-text u_1928800935" id="1928800935">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1037312402" href="" id="1037312402"> <span class="iconBg" id="1186030619"> <span class="icon hasFontIcon icon-star" id="1295316184"></span> 
+</span> 
+ <span class="text" id="1142700559">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1720805774"> <div class="image-container" id="1392424611"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+15.35.48.png" id="1671751378" class="u_1671751378"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+15.35.48-1920w.png" irh="4" irw="5" id="1504639452" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1697587817" id="1697587817"> <span class="caption-inner" id="1337518619"> <h3 class="caption-title u_1333052960" id="1333052960">Blurred Lines</h3> 
+ <div class="caption-text u_1408790662" id="1408790662">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1002634000" href="" id="1002634000"> <span class="iconBg" id="1906048510"> <span class="icon hasFontIcon icon-star" id="1561497028"></span> 
+</span> 
+ <span class="text" id="1821352633">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1434621627"> <div class="dmRespColsWrapper" id="1867261536"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1645642289"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1254116830"> <div class="dmRespColsWrapper" id="1053071428"> <div class="dmRespCol large-12 medium-12 small-12" id="1649914970"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1944050738" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"><div><span style="background-color: transparent;" class="lh-1 font-size-30"><font style="color: rgb(74, 162, 91);"><b>BATHROOM RENOVATIONS</b></font></span><br/></div></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1942049092"> <div class="dmRespColsWrapper" id="1471577317"> <div class="dmRespCol large-12 medium-12 small-12" id="1767346214"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1163410993" style="transition: opacity 1s ease-in-out 0s;">We are big on Bathroom Remodelling. We revamp old undesired bathrooms, turn them into most desirable Bathrooms, by remodelling all aspects of the bathroom &ndash; walls, bathtub, toilets, sink, plumbing fixtures, tiling, vanity, cabinets, countertop, floors, plumbing, and Geyser instillations.</div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1075658105"> <div class="dmRespColsWrapper" id="1973657761"> <div class="dmRespCol large-12 medium-12 small-12" id="1389469806"> <div class="dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1472393904"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1272823399" dont_set_id="true"> <li index="0" class="photoGalleryThumbs" id="1791186239"> <div class="image-container" id="1136282676"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+15.43.20.png" id="1651961238" class="u_1651961238"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+15.43.20-1920w.png" irh="1" irw="2" id="1912133848" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1174973060" id="1174973060"> <span class="caption-inner" id="1817943632"> <h3 class="caption-title u_1547187553" id="1547187553">City skyline</h3> 
+ <div class="caption-text u_1669166964" id="1669166964">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1480384356" href="" id="1480384356"> <span class="iconBg" id="1684544466"> <span class="icon hasFontIcon icon-star" id="1253460266"></span> 
+</span> 
+ <span class="text" id="1638056974">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="1" class="photoGalleryThumbs" id="1428437853"> <div class="image-container" id="1009968798"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+15.42.46.png" id="1305334829" class="u_1305334829"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+15.42.46-1920w.png" irh="2" irw="3" id="1603788794" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1626280845" id="1626280845"> <span class="caption-inner" id="1214566318"> <h3 class="caption-title u_1629643843" id="1629643843">Birthday Sparks</h3> 
+ <div class="caption-text u_1892378392" id="1892378392">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1228270853" href="" id="1228270853"> <span class="iconBg" id="1505814560"> <span class="icon hasFontIcon icon-star" id="1572326167"></span> 
+</span> 
+ <span class="text" id="1997462740">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1192311847"> <div class="image-container" id="1349767574"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1574088151430-76c8239f290b.jpg" id="1054271950" class="u_1054271950"><img data-src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1574088151430-76c8239f290b-1920w.jpg" irh="4" irw="5" id="1467997760" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1600495736" id="1600495736"> <span class="caption-inner" id="1369305520"> <h3 class="caption-title u_1464807977" id="1464807977">Blurred Lines</h3> 
+ <div class="caption-text u_1067196961" id="1067196961">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1725726471" href="" id="1725726471"> <span class="iconBg" id="1768330679"> <span class="icon hasFontIcon icon-star" id="1862003126"></span> 
+</span> 
+ <span class="text" id="1620330191">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1918993470"></div> 
+ <li index="2" class="photoGalleryThumbs" id="1062347896"> <div class="image-container" id="1331496485"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+15.57.55.png" id="1726646256" class="u_1726646256"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+15.57.55-1920w.png" irh="3" irw="4" id="1165874008" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1787410660" id="1787410660"> <span class="caption-inner" id="1611290136"> <h3 class="caption-title u_1658169251" id="1658169251">Fashion Magazine</h3> 
+ <div class="caption-text u_1514361584" id="1514361584">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1708445472" href="" id="1708445472"> <span class="iconBg" id="1092019599"> <span class="icon hasFontIcon icon-star" id="1169887435"></span> 
+</span> 
+ <span class="text" id="1754558010">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1881166201"> <div class="dmRespColsWrapper" id="1259493577"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1146900358"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1509683229"> <div class="dmRespColsWrapper" id="1669585644"> <div class="dmRespCol large-12 medium-12 small-12" id="1483491936"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1913241936" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"><div><span style="background-color: transparent;" class="font-size-30 lh-1"><b><font style="color: rgb(74, 162, 91);">KITCHEN RENOVATIONS</font></b></span><br/></div></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1766648696"> <div class="dmRespColsWrapper" id="1858599478"> <div class="dmRespCol large-12 medium-12 small-12" id="1654042091"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1730859976" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center">Stripping away the old Kitchens. Installation of new cabinets, countertop, be it Granite , sink , plumbing fixtures. Installation of all electrical or gas stoves, microwave hub,ovens, extractor fan, extra switches. Everybody loves a beautiful kitchen.</div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1251864434"> <div class="dmRespColsWrapper" id="1756493246"> <div class="dmRespCol large-12 medium-12 small-12" id="1912482429"> <div class="dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1607106094"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1673165222" dont_set_id="true"> <li index="0" class="photoGalleryThumbs" id="1932156426"> <div class="image-container" id="1203121159"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.19.32.png" id="1999970515" class="u_1999970515"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.19.32-1920w.png" irh="1" irw="2" id="1393398161" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1354139232" id="1354139232"> <span class="caption-inner" id="1874653849"> <h3 class="caption-title u_1414857698" id="1414857698">City skyline</h3> 
+ <div class="caption-text u_1734187086" id="1734187086">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1912890614" href="" id="1912890614"> <span class="iconBg" id="1905903595"> <span class="icon hasFontIcon icon-star" id="1332788960"></span> 
+</span> 
+ <span class="text" id="1272008922">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="1" class="photoGalleryThumbs" id="1567555418"> <div class="image-container" id="1188725712"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.18.58.png" id="1892454985" class="u_1892454985"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.18.58-1920w.png" irh="2" irw="3" id="1147522003" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1759635097" id="1759635097"> <span class="caption-inner" id="1115080156"> <h3 class="caption-title u_1558354292" id="1558354292">Birthday Sparks</h3> 
+ <div class="caption-text u_1834184961" id="1834184961">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1317874647" href="" id="1317874647"> <span class="iconBg" id="1352558552"> <span class="icon hasFontIcon icon-star" id="1491277419"></span> 
+</span> 
+ <span class="text" id="1919539449">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1036586851"> <div class="image-container" id="1931435729"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.18.29.png" id="1921639183" class="u_1921639183"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.18.29-1920w.png" irh="3" irw="4" id="1981315849" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1614956435" id="1614956435"> <span class="caption-inner" id="1798698327"> <h3 class="caption-title u_1307460679" id="1307460679">Fashion Magazine</h3> 
+ <div class="caption-text u_1081121231" id="1081121231">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1507464346" href="" id="1507464346"> <span class="iconBg" id="1700558108"> <span class="icon hasFontIcon icon-star" id="1082885045"></span> 
+</span> 
+ <span class="text" id="1133176877">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1007425855"> <div class="image-container" id="1582923708"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.18.04.png" id="1257260733" class="u_1257260733"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.18.04-1920w.png" irh="4" irw="5" id="1953386177" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1620162971" id="1620162971"> <span class="caption-inner" id="1997194086"> <h3 class="caption-title u_1269143268" id="1269143268">Blurred Lines</h3> 
+ <div class="caption-text u_1734577872" id="1734577872">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1436550788" href="" id="1436550788"> <span class="iconBg" id="1030534527"> <span class="icon hasFontIcon icon-star" id="1196188752"></span> 
+</span> 
+ <span class="text" id="1813170617">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1851853312"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1208453614"> <div class="dmRespColsWrapper" id="1422098162"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1159320288"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1620427482"> <div class="dmRespColsWrapper" id="1284557597"> <div class="dmRespCol large-12 medium-12 small-12" id="1437876778"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1764215396" style="transition: opacity 1s ease-in-out 0s;"><div><span style="background-color: transparent;" class="font-size-30 lh-1"><font style="color: rgb(74, 162, 91);"><b>PLUMBING AND ELECTRICAL</b></font></span><br/></div></div> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1739386857" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center">All the Electrical Work undertaken by a full qualified Electrician. Electrical Work from DB board to full house wiring, installations of power points, plugs, switches, Earth wires, Geysers, Stoves , Ovens, Air-conditioners.&nbsp;&nbsp;<span style="background-color: transparent;">PLUMBING. We do all the drains, piping of cold water and hot water, pressure pump from the Supply to the taps, sink, toilets, showers, with full functional waste pipes leading to sewer pipes and drains.&nbsp;&nbsp;</span><span style="background-color: transparent;">We do Certificates of compliance on all Electrical Works undertaken.</span></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1755011883"> <div class="dmRespColsWrapper" id="1108585266"> <div class="dmRespCol large-12 medium-12 small-12" id="1802856217"> <div class="dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1050648214"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1477817044" dont_set_id="true"> <li index="0" class="photoGalleryThumbs" id="1857393548"> <div class="image-container" id="1148222178"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/WhatsApp+Image+2020-02-05+at+14.56.18.jpeg" id="1266919237" class="u_1266919237"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/WhatsApp+Image+2020-02-05+at+14.56.18-1920w.jpeg" irh="1" irw="2" id="1780355740" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1380408050" id="1380408050"> <span class="caption-inner" id="1145476784"> <h3 class="caption-title u_1800682496" id="1800682496">City skyline</h3> 
+ <div class="caption-text u_1157242777" id="1157242777">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1506148236" href="" id="1506148236"> <span class="iconBg" id="1737436256"> <span class="icon hasFontIcon icon-star" id="1571270124"></span> 
+</span> 
+ <span class="text" id="1565678632">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="1" class="photoGalleryThumbs" id="1290826100"> <div class="image-container" id="1388109593"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.28.57.png" id="1937945288" class="u_1937945288"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.28.57-1920w.png" irh="2" irw="3" id="1350013069" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1713578762" id="1713578762"> <span class="caption-inner" id="1866189456"> <h3 class="caption-title u_1878970691" id="1878970691">Birthday Sparks</h3> 
+ <div class="caption-text u_1421315401" id="1421315401">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1490976565" href="" id="1490976565"> <span class="iconBg" id="1864391880"> <span class="icon hasFontIcon icon-star" id="1628439024"></span> 
+</span> 
+ <span class="text" id="1700179425">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1645138788"> <div class="image-container" id="1866072450"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1545193329-4a052e14eb8f.jpg" id="1510177583" class="u_1510177583"><img data-src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1545193329-4a052e14eb8f-1920w.jpg" irh="3" irw="4" id="1610587512" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1680928050" id="1680928050"> <span class="caption-inner" id="1770745274"> <h3 class="caption-title u_1852081630" id="1852081630">Fashion Magazine</h3> 
+ <div class="caption-text u_1548695750" id="1548695750">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1866034699" href="" id="1866034699"> <span class="iconBg" id="1670285486"> <span class="icon hasFontIcon icon-star" id="1337193464"></span> 
+</span> 
+ <span class="text" id="1397464517">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1389076886"> <div class="image-container" id="1893528317"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1544724569-5f546fd6f2b5.jpg" id="1029930061" class="u_1029930061"><img data-src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1544724569-5f546fd6f2b5-1920w.jpg" irh="4" irw="5" id="1294326519" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1422998152" id="1422998152"> <span class="caption-inner" id="1167808045"> <h3 class="caption-title u_1323839003" id="1323839003">Blurred Lines</h3> 
+ <div class="caption-text u_1013840787" id="1013840787">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1939543507" href="" id="1939543507"> <span class="iconBg" id="1307230682"> <span class="icon hasFontIcon icon-star" id="1267793012"></span> 
+</span> 
+ <span class="text" id="1988917773">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1756208799"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1435006815"> <div class="dmRespColsWrapper" id="1815284041"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1332657565"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1832434660"> <div class="dmRespColsWrapper" id="1709240101"> <div class="dmRespCol large-12 medium-12 small-12" id="1918844764"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1761741188" style="transition: opacity 1s ease-in-out 0s;"><b><font style="color: rgb(74, 162, 91);" class="font-size-30 lh-1">WATER PROOFING AND DAMP PROOFING</font></b></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1928703578"> <div class="dmRespColsWrapper" id="1561047690"> <div class="dmRespCol large-12 medium-12 small-12" id="1109668909"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1182588730" style="transition: opacity 1s ease-in-out 0s;">We use the latest technology on the market to control damp and keep the walls dry. We believe in quality hence we use the only the best products on all our damp and Waterproofing projects. Our preferred materials are Dampcrete, a cement based Waterproofing Solution applied to the brickwork to prevent damp or water penetrating to the rest of the building. Then Coprox also a cement based Waterproofing Solutions, effective and efficient to most building works, applied in your plaster mixture to prevent further moisture on affected surface areas.</div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1369649885"> <div class="dmRespColsWrapper" id="1851455760"> <div class="dmRespCol large-12 medium-12 small-12" id="1044213360"> <div class="u_1242588681 dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1242588681"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1218831755" dont_set_id="true"> <li index="1" class="photoGalleryThumbs" id="1808019565"> <div class="image-container" id="1622975667"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.40.30.png" id="1255835615" class="u_1255835615"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.40.30-1920w.png" irh="2" irw="3" id="1041652884" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1219746027" id="1219746027"> <span class="caption-inner" id="1298076438"> <h3 class="caption-title u_1684217029" id="1684217029">Birthday Sparks</h3> 
+ <div class="caption-text u_1707285321" id="1707285321">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1450799118" href="" id="1450799118"> <span class="iconBg" id="1145434650"> <span class="icon hasFontIcon icon-star" id="1749939530"></span> 
+</span> 
+ <span class="text" id="1726145731">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1676646124"> <div class="image-container" id="1069286473"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.40.13.png" id="1394206694" class="u_1394206694"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.40.13-1920w.png" irh="3" irw="4" id="1762251711" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1572464059" id="1572464059"> <span class="caption-inner" id="1285285125"> <h3 class="caption-title u_1798388624" id="1798388624">Fashion Magazine</h3> 
+ <div class="caption-text u_1670776355" id="1670776355">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1885013110" href="" id="1885013110"> <span class="iconBg" id="1969683729"> <span class="icon hasFontIcon icon-star" id="1504196380"></span> 
+</span> 
+ <span class="text" id="1207027325">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1816591237"></div> 
+ <li index="0" class="photoGalleryThumbs" id="1784471463"> <div class="image-container" id="1517559211"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.44.13.png" id="1382995452" class="u_1382995452"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.44.13-1920w.png" irh="1" irw="2" id="1761133714" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1405668713" id="1405668713"> <span class="caption-inner" id="1875354340"> <h3 class="caption-title u_1142250001" id="1142250001">City skyline</h3> 
+ <div class="caption-text u_1063176296" id="1063176296">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1400444415" href="" id="1400444415"> <span class="iconBg" id="1017124623"> <span class="icon hasFontIcon icon-star" id="1267436858"></span> 
+</span> 
+ <span class="text" id="1991461970">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1134257114"> <div class="image-container" id="1409557973"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.39.45.png" id="1637564979" class="u_1637564979"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.39.45-1920w.png" irh="4" irw="5" id="1169216500" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1998917864" id="1998917864"> <span class="caption-inner" id="1334231507"> <h3 class="caption-title u_1528368165" id="1528368165">Blurred Lines</h3> 
+ <div class="caption-text u_1215399091" id="1215399091">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1116212211" href="" id="1116212211"> <span class="iconBg" id="1776660822"> <span class="icon hasFontIcon icon-star" id="1878936269"></span> 
+</span> 
+ <span class="text" id="1585982839">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1225287049"> <div class="dmRespColsWrapper" id="1093395599"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1098993327"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1538729375"> <div class="dmRespColsWrapper" id="1139420068"> <div class="dmRespCol large-12 medium-12 small-12" id="1926101717"> <div class="dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1786079081" style="transition: opacity 1s ease-in-out 0s;"><div><span style="background-color: transparent;" class="font-size-30 lh-1"><font style="color: rgb(74, 162, 91);"><b>HANDYMAN SERVICES</b></font></span><br/></div></div> <div class="u_1868701431 dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1868701431" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center">With our multi-skilled Artisans We offer a wide variety of Handyman Services: From Hanging Pictures Frames. &ndash; Hanging Doors. &ndash; Tiling. &ndash; Ceilings. &ndash; Laminated Floors.- Rhinoliting. -Fixing Cupboards.-Window Glazing. &ndash; Light fittings. &ndash; Locks. &ndash; Shower doors installation. and more.</div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1224188887"> <div class="dmRespColsWrapper" id="1294038432"> <div class="dmRespCol large-12 medium-12 small-12" id="1506899947"> <div class="u_1100171886 dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1100171886"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1866114862" dont_set_id="true"> <li index="1" class="photoGalleryThumbs" id="1838015555"> <div class="image-container" id="1237825856"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.52.52.png" id="1287968569" class="u_1287968569"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.52.52-1920w.png" irh="2" irw="3" id="1821610579" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1483210332" id="1483210332"> <span class="caption-inner" id="1191277598"> <h3 class="caption-title u_1086562594" id="1086562594">Birthday Sparks</h3> 
+ <div class="caption-text u_1361249825" id="1361249825">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1895187267" href="" id="1895187267"> <span class="iconBg" id="1733061646"> <span class="icon hasFontIcon icon-star" id="1534269265"></span> 
+</span> 
+ <span class="text" id="1944121643">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1822753588"> <div class="image-container" id="1401038207"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.55.22.png" id="1549942149" class="u_1549942149"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.55.22-1920w.png" irh="3" irw="4" id="1041276432" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1727042048" id="1727042048"> <span class="caption-inner" id="1994212598"> <h3 class="caption-title u_1683625893" id="1683625893">Fashion Magazine</h3> 
+ <div class="caption-text u_1272444543" id="1272444543">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1479040943" href="" id="1479040943"> <span class="iconBg" id="1890644196"> <span class="icon hasFontIcon icon-star" id="1762423537"></span> 
+</span> 
+ <span class="text" id="1883623161">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1910317455"></div> 
+ <li index="0" class="photoGalleryThumbs" id="1238571094"> <div class="image-container" id="1915437721"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+16.59.03.png" id="1140768863" class="u_1140768863"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+16.59.03-1920w.png" irh="1" irw="2" id="1355746205" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1374041487" id="1374041487"> <span class="caption-inner" id="1059262957"> <h3 class="caption-title u_1848146623" id="1848146623">City skyline</h3> 
+ <div class="caption-text u_1849663163" id="1849663163">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1124874162" href="" id="1124874162"> <span class="iconBg" id="1094121111"> <span class="icon hasFontIcon icon-star" id="1890133086"></span> 
+</span> 
+ <span class="text" id="1071545862">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1177993907"> <div class="image-container" id="1023770412"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-09+at+17.01.14.png" id="1770604825" class="u_1770604825"><img data-src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-09+at+17.01.14-1920w.png" irh="4" irw="5" id="1832943381" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1638396372" id="1638396372"> <span class="caption-inner" id="1143277397"> <h3 class="caption-title u_1618936959" id="1618936959">Blurred Lines</h3> 
+ <div class="caption-text u_1307922002" id="1307922002">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1218582008" href="" id="1218582008"> <span class="iconBg" id="1515127818"> <span class="icon hasFontIcon icon-star" id="1295774112"></span> 
+</span> 
+ <span class="text" id="1210574171">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1006831625"> <div class="dmRespColsWrapper" id="1923085917"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1856233026"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer hasBackgroundOverlay"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1632155419 dmRespRow" style="text-align: center;" id="1632155419"> <div class="dmRespColsWrapper" id="1253858808"> <div class="u_1553864455 dmRespCol small-12 medium-4 large-4" id="1553864455"> <nav class="u_1971045927 unifiednav_vertical effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1971045927" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="false"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Home
+        
+                " data-auto&#x3d;page-text-style="">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="about-us.html" class="unifiednav__item  dmUDNavigationItem_010101325370  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         About Us
+        
+                " data-auto&#x3d;page-text-style="">About Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="Services.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101298332  " target="" data-target-page-alias="" data-auto&#x3d;selected-page=""> <span class="nav-item-text " data-link-text="
+                  
+         Services
+        
+                " data-auto&#x3d;page-text-style="">Services<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="Contact.html" class="unifiednav__item  dmUDNavigationItem_010101960562  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Contact
+        
+                " data-auto&#x3d;page-text-style="">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="systemadmin.html" class="unifiednav__item  dmUDNavigationItem_010101342348  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         SystemAdmin
+        
+                " data-auto&#x3d;page-text-style="">SystemAdmin<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1332161287 dmRespCol small-12 medium-4 large-4" id="1332161287"> <h6 class="u_1299492659 dmNewParagraph" data-element-type="paragraph" id="1299492659" style="transition: opacity 1s ease-in-out;" data-uialign="center"><div style="text-align: left;"><span style="font-weight: 600;"><font style="color: rgb(255, 255, 255);">Contact</font></span></div></h6> <h6 class="u_1521574249 dmNewParagraph" data-element-type="paragraph" id="1521574249" data-uialign="center" style="transition: none; display: block;"><div><span style=""><font style="color: rgb(234, 234, 234);"></font></span></div><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);"><div style="text-align: left;"><br/></div><div style="text-align: left;">Mobile: +27 82 041 1515</div><div style="text-align: left;">info.handsatwork@gmail.com</div></font></span><span style=""><font style="color: rgb(234, 234, 234);"><div style=""><span style=""></span></div></font></span><div><span style="color: rgb(234, 234, 234);"></span></div></h6> <h6 class="u_1544536735 dmNewParagraph" data-element-type="paragraph" id="1544536735" data-uialign="center" style="transition: none; display: block;"><div><span style=""><font style="color: rgb(234, 234, 234);"></font></span></div><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);"><div style="text-align: left;">6280 Sau Tome Crescent, Cosmo City</div><div style="text-align: left;">Randburg, Gauteng</div><div style="text-align: left;">South Africa</div></font></span><span style=""><font style="color: rgb(234, 234, 234);"><div style=""><span style=""></span></div></font></span><div><span style="color: rgb(234, 234, 234);"></span></div></h6> <div class="u_1184618318 imageWidget align-center" editablewidget="true" data-element-type="image" data-widget-type="image" id="1184618318"> <a id="1197615394"><img src="https://lirp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/opt/Screenshot+2020-02-17+at+09.52.01-390w.png" id="1828193756" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/ec6ff8e2/dms3rep/multi/Screenshot+2020-02-17+at+09.52.01.png" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1793378685 dmRespCol small-12 medium-4 large-4" id="1793378685"> <a data-display-type="block" class="u_1005493799 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="tel:+27 82 041 1515" id="1005493799" data-element-type="dButtonLinkId" dm_dont_rewrite_url="false"> <span class="iconBg" id="1445260480"> <span class="icon hasFontIcon icon-star" id="1828275411"></span> 
+</span> 
+ <span class="text" id="1031194968">Call Us Now</span> 
+</a> 
+ <div class="u_1970798802 align-center text-align-center dmSocialHub" id="1970798802" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="mailto:info.handsatwork@gmail.com" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.facebook.com/HandsAtWorkJhb/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+ <a href="http://instagram.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style8" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1194169475"> <div class="dmRespColsWrapper" id="1036872869"> <div class="dmRespCol large-12 medium-12 small-12" id="1724919379"> <div class="widget-1f5975 dmCustomWidget" data-lazy-load="" id="1580488499" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPjxzcGFuIHN0eWxlPVwiY29sb3I6cmdiYSgyMzksIDIzOSwgMjM5LCAxKVwiPkFsbCBSaWdodHMgUmVzZXJ2ZWQgfCBEZXNpZ25lZCBiecKgIFByaW50d2FyZSBDb21wdXRlcnMgKzI3ICgwKSA4MiA0MTkgNjYwNjwvc3Bhbj48L3A+In0="> <div class="copyright"> <div>&copy; 2020&nbsp;</div> 
+ <div> <p class="rteBlock"> <span style="color:rgba(239, 239, 239, 1)">All Rights Reserved | Designed by&nbsp; Printware Computers +27 (0) 82 419 6606</span> 
+</p> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false" data-dmtmpl="true"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+            </div>
+        </div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  <script type="text/javascript" id="d_track_ga">
+
+  _dm_gaq.siteAlias = 'ec6ff8e2';
+  _dm_gaq.systemAggregatedGaqID = 'UA-7265702-9';
+  _dm_gaq.externalGaqID = 'UA-167593973-1';
+  
+  _gaq.push(['_gat._forceSSL']);
+  
+  _gaq.push (['_gat._anonymizeIp']);
+  
+
+  if(_dm_gaq.systemAggregatedGaqID && (_dm_gaq.systemAggregatedGaqID != _dm_gaq.systemGaqID)){
+     // track aggregated account
+    _gaq.push(['b._setAccount', _dm_gaq.systemAggregatedGaqID]);
+    _gaq.push(['b._setAllowLinker', true]);
+    _gaq.push(['b._setVar', _dm_gaq.siteAlias]);
+    _gaq.push(['b._setCustomVar', 1, 'product', 'DM_DIRECT',  2 ]);
+    _gaq.push(['b._setCustomVar', 2, 'plan', 'BUSINESS_PLUS',  2 ]);
+    _gaq.push(['b._setCustomVar', 3, 'dfooter', 'false',  2 ]);
+    _gaq.push(['b._setCustomVar', 4, 'sitetype', '1',  2 ]);
+    _gaq.push(['b._setCustomVar', 5, 'pwaEnabled', 'true',  2 ]);
+
+      _gaq.push(['b._trackPageview' ]);
+    pushInsiteImpressions('b._trackEvent');
+   }
+
+   if(_dm_gaq.externalGaqID && _dm_gaq.externalGaqID!= '') {
+     _gaq.push(['c._setAccount', _dm_gaq.externalGaqID]);
+     _gaq.push(['c._setVar', _dm_gaq.siteAlias]);
+     _gaq.push(['c._setDomainName', 'handsatwork.co.za']);
+     _gaq.push(['c._setAllowLinker', true]);
+     _gaq.push(['c._trackPageview' ]);
+
+     pushInsiteImpressions('c._trackEvent');
+   }
+
+   function pushInsiteImpressions(category) {
+   	$.each(_dm_insite, function(idx, rule) {
+   		_gaq.push([ category, 'insite_impression' , _dm_gaq.siteAlias, rule.ruleType + '__' + rule.ruleId, ]);
+   	});
+   }
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+  
+	ga.src = 'https://ssl.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+
+  </script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'ec6ff8e2'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: ec6ff8e2 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+
+<script>
+
+    jQuery(window).load(function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+        ;
+    });
+</script>
+<script>
+    dmAPI.loadScript(window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js', function () {
+        dmAPI.runOnReady('lozadInit', function () {
+            window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                img.addEventListener('load', function (event) {
+                    var img = event.target;
+                    img.style.filter = 'blur(0)';
+                    setTimeout(function () {
+                        $(img).closest('.imageWidget').addClass('lazyLoaded');
+                    }, 250)
+                });
+            });
+            lozad('.lazy', {
+                threshold: 0.1,
+                loaded: function (element) {
+                    if (element.getAttribute('data-background-image')) {
+                        element.style.setProperty(
+                            'background-image',
+                            "url('" + element.getAttribute('data-background-image') + "')",
+                            "important"
+                        );
+                    }
+                }
+            }).observe();
+        });
+    });
+</script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+            <!--  Site Wide Html Markup -->
+</body>
+</html>

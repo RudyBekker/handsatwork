@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.handsatwork.co.za/</loc>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2020-10-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.handsatwork.co.za/about-us</loc>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2020-10-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.handsatwork.co.za/Services</loc>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2020-10-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.handsatwork.co.za/Contact</loc>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2020-10-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.handsatwork.co.za/systemadmin</loc>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2020-10-25</lastmod>
+    </url>
+</urlset>
